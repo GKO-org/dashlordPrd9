@@ -1,0 +1,2 @@
+"id","fqdn/ip","port","severity","finding","cve","cwe"
+"scanProblem","tmp.justice.gouv.fr/","443","FATAL","No IPv4/IPv6 address(es) for 'tmp.justice.gouv.fr' available","",""
