@@ -1,0 +1,96 @@
+# Nmap 7.92 scan initiated Sat Mar  9 14:45:40 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln service-public.fr
+Nmap scan report for service-public.fr (160.92.168.33)
+Host is up (0.088s latency).
+rDNS record for 160.92.168.33: secure-www-sp-dila-prod.as8677.net
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http-proxy F5 BIG-IP load balancer http proxy
+|_http-server-header: BigIP
+443/tcp open  ssl/https
+| fingerprint-strings: 
+|   FourOhFourRequest, HTTPOptions: 
+|     HTTP/1.1 499 Unknown Code
+|     X-Frame-Options: SAMEORIGIN
+|     X-XSS-Protection: 1; mode=block
+|     X-Content-Type-Options: nosniff
+|     Cache-Control: no-cache
+|     Connection: close
+|     Content-Type: text/html; charset=utf-8
+|     Pragma: no-cache
+|     Content-Length: 20792
+|     <!DOCTYPE html>
+|     <html class="no-js" dir="ltr" zzdata-fr-theme="dark" lang="fr"><head>
+|     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+|     <meta charset="utf-8">
+|     <title data-blocage="16705463321575133158" >Page bloqu
+|     page ne vous est pas accessible 
+|     Service-public.fr</title>
+|     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+|     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+|     <meta property="og:title" content="">
+|     <meta property="og:url" content="++ url de la page ++">
+|     <meta property="og:description" content="Le site officiel de l
+|     administration fran
+|     aise">
+|   GetRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Date: Sat, 09 Mar 2024 14:46:00 GMT
+|     Content-Type: text/html
+|     Content-Length: 162
+|     Connection: close
+|     Location: https://www.service-public.fr/
+|     <html>
+|     <head><title>301 Moved Permanently</title></head>
+|     <body>
+|     <center><h1>301 Moved Permanently</h1></center>
+|     <hr><center>nginx</center>
+|     </body>
+|_    </html>
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/9%Time=65EC7628%P=x86_64-alpine-linux-
+SF:musl%r(GetRequest,154,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nDate
+SF::\x20Sat,\x2009\x20Mar\x202024\x2014:46:00\x20GMT\r\nContent-Type:\x20t
+SF:ext/html\r\nContent-Length:\x20162\r\nConnection:\x20close\r\nLocation:
+SF:\x20https://www\.service-public\.fr/\r\n\r\n<html>\r\n<head><title>301\
+SF:x20Moved\x20Permanently</title></head>\r\n<body>\r\n<center><h1>301\x20
+SF:Moved\x20Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n</b
+SF:ody>\r\n</html>\r\n")%r(HTTPOptions,5231,"HTTP/1\.1\x20499\x20Unknown\x
+SF:20Code\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20
+SF:mode=block\r\nX-Content-Type-Options:\x20nosniff\r\nCache-Control:\x20n
+SF:o-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20chars
+SF:et=utf-8\r\nPragma:\x20no-cache\r\nContent-Length:\x2020792\r\n\r\n<!DO
+SF:CTYPE\x20html>\n<html\x20class=\"no-js\"\x20dir=\"ltr\"\x20zzdata-fr-th
+SF:eme=\"dark\"\x20lang=\"fr\"><head>\n<meta\x20http-equiv=\"content-type\
+SF:"\x20content=\"text/html;\x20charset=UTF-8\">\n\x20\x20<meta\x20charset
+SF:=\"utf-8\">\n\x20\x20<title\x20data-blocage=\"16705463321575133158\"\x2
+SF:0>Page\x20bloqu\xc3\xa9e\x20-\x20La\x20page\x20ne\x20vous\x20est\x20pas
+SF:\x20accessible\x20\n\x20\|\x20Service-public\.fr</title>\n\n\x20\x20<me
+SF:ta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\">\n\x20\x20<
+SF:meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20initial-s
+SF:cale=1\.0,\x20shrink-to-fit=no\">\n\x20\x20<meta\x20property=\"og:title
+SF:\"\x20content=\"\">\n\x20\x20<meta\x20property=\"og:url\"\x20content=\"
+SF:\+\+\x20url\x20de\x20la\x20page\x20\+\+\">\n\x20\x20<meta\x20property=\
+SF:"og:description\"\x20content=\"Le\x20site\x20officiel\x20de\x20l\xe2\x8
+SF:0\x99administration\x20fran\xc3\xa7aise\">\n\x20\x20<!")%r(FourOhFourRe
+SF:quest,5231,"HTTP/1\.1\x20499\x20Unknown\x20Code\r\nX-Frame-Options:\x20
+SF:SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-O
+SF:ptions:\x20nosniff\r\nCache-Control:\x20no-cache\r\nConnection:\x20clos
+SF:e\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nPragma:\x20no-cach
+SF:e\r\nContent-Length:\x2020792\r\n\r\n<!DOCTYPE\x20html>\n<html\x20class
+SF:=\"no-js\"\x20dir=\"ltr\"\x20zzdata-fr-theme=\"dark\"\x20lang=\"fr\"><h
+SF:ead>\n<meta\x20http-equiv=\"content-type\"\x20content=\"text/html;\x20c
+SF:harset=UTF-8\">\n\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20<title\x2
+SF:0data-blocage=\"16705463321575133158\"\x20>Page\x20bloqu\xc3\xa9e\x20-\
+SF:x20La\x20page\x20ne\x20vous\x20est\x20pas\x20accessible\x20\n\x20\|\x20
+SF:Service-public\.fr</title>\n\n\x20\x20<meta\x20http-equiv=\"X-UA-Compat
+SF:ible\"\x20content=\"IE=edge\">\n\x20\x20<meta\x20name=\"viewport\"\x20c
+SF:ontent=\"width=device-width,\x20initial-scale=1\.0,\x20shrink-to-fit=no
+SF:\">\n\x20\x20<meta\x20property=\"og:title\"\x20content=\"\">\n\x20\x20<
+SF:meta\x20property=\"og:url\"\x20content=\"\+\+\x20url\x20de\x20la\x20pag
+SF:e\x20\+\+\">\n\x20\x20<meta\x20property=\"og:description\"\x20content=\
+SF:"Le\x20site\x20officiel\x20de\x20l\xe2\x80\x99administration\x20fran\xc
+SF:3\xa7aise\">\n\x20\x20<!");
+Service Info: Device: load balancer
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  9 14:48:11 2024 -- 1 IP address (1 host up) scanned in 150.54 seconds
