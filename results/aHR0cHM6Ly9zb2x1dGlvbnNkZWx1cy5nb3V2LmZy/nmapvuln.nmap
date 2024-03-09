@@ -1,0 +1,202 @@
+# Nmap 7.92 scan initiated Sat Mar  9 15:19:16 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln solutionsdelus.gouv.fr
+Nmap scan report for solutionsdelus.gouv.fr (51.159.9.204)
+Host is up (0.14s latency).
+rDNS record for 51.159.9.204: 51-159-9-204.lb.fr-par.scw.cloud
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      envoy
+| fingerprint-strings: 
+|   DNSStatusRequestTCP: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Sat, 09 Mar 2024 15:19:40 GMT
+|     server: envoy
+|     connection: close
+|     Request
+|   DNSVersionBindReqTCP, RPCCheck: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Sat, 09 Mar 2024 15:19:37 GMT
+|     server: envoy
+|     connection: close
+|     Request
+|   FourOhFourRequest: 
+|     HTTP/1.1 426 Upgrade Required
+|     date: Sat, 09 Mar 2024 15:19:31 GMT
+|     server: envoy
+|     connection: close
+|     content-length: 0
+|   GetRequest: 
+|     HTTP/1.1 426 Upgrade Required
+|     date: Sat, 09 Mar 2024 15:19:25 GMT
+|     server: envoy
+|     connection: close
+|     content-length: 0
+|   HTTPOptions: 
+|     HTTP/1.1 426 Upgrade Required
+|     date: Sat, 09 Mar 2024 15:19:26 GMT
+|     server: envoy
+|     connection: close
+|     content-length: 0
+|   Help, SSLSessionReq: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Sat, 09 Mar 2024 15:19:41 GMT
+|     server: envoy
+|     connection: close
+|     Request
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Sat, 09 Mar 2024 15:19:28 GMT
+|     server: envoy
+|     connection: close
+|     Request
+|   X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Sat, 09 Mar 2024 15:19:29 GMT
+|     server: envoy
+|     connection: close
+|_    Request
+|_http-server-header: envoy
+443/tcp open  ssl/https envoy
+| fingerprint-strings: 
+|   DNSStatusRequestTCP: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Sat, 09 Mar 2024 15:19:48 GMT
+|     server: envoy
+|     connection: close
+|     Request
+|   DNSVersionBindReqTCP, RPCCheck: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Sat, 09 Mar 2024 15:19:45 GMT
+|     server: envoy
+|     connection: close
+|     Request
+|   FourOhFourRequest: 
+|     HTTP/1.1 426 Upgrade Required
+|     date: Sat, 09 Mar 2024 15:19:34 GMT
+|     server: envoy
+|     connection: close
+|     content-length: 0
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 426 Upgrade Required
+|     date: Sat, 09 Mar 2024 15:19:31 GMT
+|     server: envoy
+|     connection: close
+|     content-length: 0
+|   Help: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Sat, 09 Mar 2024 15:19:49 GMT
+|     server: envoy
+|     connection: close
+|     Request
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Sat, 09 Mar 2024 15:19:43 GMT
+|     server: envoy
+|     connection: close
+|     Request
+|   SSLSessionReq: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Sat, 09 Mar 2024 15:19:51 GMT
+|     server: envoy
+|     connection: close
+|     Request
+|   tor-versions: 
+|     HTTP/1.1 400 Bad Request
+|     content-length: 11
+|     content-type: text/plain
+|     date: Sat, 09 Mar 2024 15:19:37 GMT
+|     server: envoy
+|     connection: close
+|_    Request
+|_http-server-header: envoy
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.92%I=7%D=3/9%Time=65EC7DFF%P=x86_64-alpine-linux-musl%r(
+SF:GetRequest,7B,"HTTP/1\.1\x20426\x20Upgrade\x20Required\r\ndate:\x20Sat,
+SF:\x2009\x20Mar\x202024\x2015:19:25\x20GMT\r\nserver:\x20envoy\r\nconnect
+SF:ion:\x20close\r\ncontent-length:\x200\r\n\r\n")%r(HTTPOptions,7B,"HTTP/
+SF:1\.1\x20426\x20Upgrade\x20Required\r\ndate:\x20Sat,\x2009\x20Mar\x20202
+SF:4\x2015:19:26\x20GMT\r\nserver:\x20envoy\r\nconnection:\x20close\r\ncon
+SF:tent-length:\x200\r\n\r\n")%r(RTSPRequest,9C,"HTTP/1\.1\x20400\x20Bad\x
+SF:20Request\r\ncontent-length:\x2011\r\ncontent-type:\x20text/plain\r\nda
+SF:te:\x20Sat,\x2009\x20Mar\x202024\x2015:19:28\x20GMT\r\nserver:\x20envoy
+SF:\r\nconnection:\x20close\r\n\r\nBad\x20Request")%r(X11Probe,9C,"HTTP/1\
+SF:.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type:\x
+SF:20text/plain\r\ndate:\x20Sat,\x2009\x20Mar\x202024\x2015:19:29\x20GMT\r
+SF:\nserver:\x20envoy\r\nconnection:\x20close\r\n\r\nBad\x20Request")%r(Fo
+SF:urOhFourRequest,7B,"HTTP/1\.1\x20426\x20Upgrade\x20Required\r\ndate:\x2
+SF:0Sat,\x2009\x20Mar\x202024\x2015:19:31\x20GMT\r\nserver:\x20envoy\r\nco
+SF:nnection:\x20close\r\ncontent-length:\x200\r\n\r\n")%r(RPCCheck,9C,"HTT
+SF:P/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-typ
+SF:e:\x20text/plain\r\ndate:\x20Sat,\x2009\x20Mar\x202024\x2015:19:37\x20G
+SF:MT\r\nserver:\x20envoy\r\nconnection:\x20close\r\n\r\nBad\x20Request")%
+SF:r(DNSVersionBindReqTCP,9C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nconten
+SF:t-length:\x2011\r\ncontent-type:\x20text/plain\r\ndate:\x20Sat,\x2009\x
+SF:20Mar\x202024\x2015:19:37\x20GMT\r\nserver:\x20envoy\r\nconnection:\x20
+SF:close\r\n\r\nBad\x20Request")%r(DNSStatusRequestTCP,9C,"HTTP/1\.1\x2040
+SF:0\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type:\x20text/p
+SF:lain\r\ndate:\x20Sat,\x2009\x20Mar\x202024\x2015:19:40\x20GMT\r\nserver
+SF::\x20envoy\r\nconnection:\x20close\r\n\r\nBad\x20Request")%r(Help,9C,"H
+SF:TTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-t
+SF:ype:\x20text/plain\r\ndate:\x20Sat,\x2009\x20Mar\x202024\x2015:19:41\x2
+SF:0GMT\r\nserver:\x20envoy\r\nconnection:\x20close\r\n\r\nBad\x20Request"
+SF:)%r(SSLSessionReq,9C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-len
+SF:gth:\x2011\r\ncontent-type:\x20text/plain\r\ndate:\x20Sat,\x2009\x20Mar
+SF:\x202024\x2015:19:41\x20GMT\r\nserver:\x20envoy\r\nconnection:\x20close
+SF:\r\n\r\nBad\x20Request");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/9%Time=65EC7E06%P=x86_64-alpine-linux-
+SF:musl%r(GetRequest,7B,"HTTP/1\.1\x20426\x20Upgrade\x20Required\r\ndate:\
+SF:x20Sat,\x2009\x20Mar\x202024\x2015:19:31\x20GMT\r\nserver:\x20envoy\r\n
+SF:connection:\x20close\r\ncontent-length:\x200\r\n\r\n")%r(HTTPOptions,7B
+SF:,"HTTP/1\.1\x20426\x20Upgrade\x20Required\r\ndate:\x20Sat,\x2009\x20Mar
+SF:\x202024\x2015:19:31\x20GMT\r\nserver:\x20envoy\r\nconnection:\x20close
+SF:\r\ncontent-length:\x200\r\n\r\n")%r(FourOhFourRequest,7B,"HTTP/1\.1\x2
+SF:0426\x20Upgrade\x20Required\r\ndate:\x20Sat,\x2009\x20Mar\x202024\x2015
+SF::19:34\x20GMT\r\nserver:\x20envoy\r\nconnection:\x20close\r\ncontent-le
+SF:ngth:\x200\r\n\r\n")%r(tor-versions,9C,"HTTP/1\.1\x20400\x20Bad\x20Requ
+SF:est\r\ncontent-length:\x2011\r\ncontent-type:\x20text/plain\r\ndate:\x2
+SF:0Sat,\x2009\x20Mar\x202024\x2015:19:37\x20GMT\r\nserver:\x20envoy\r\nco
+SF:nnection:\x20close\r\n\r\nBad\x20Request")%r(RTSPRequest,9C,"HTTP/1\.1\
+SF:x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type:\x20t
+SF:ext/plain\r\ndate:\x20Sat,\x2009\x20Mar\x202024\x2015:19:43\x20GMT\r\ns
+SF:erver:\x20envoy\r\nconnection:\x20close\r\n\r\nBad\x20Request")%r(RPCCh
+SF:eck,9C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\n
+SF:content-type:\x20text/plain\r\ndate:\x20Sat,\x2009\x20Mar\x202024\x2015
+SF::19:45\x20GMT\r\nserver:\x20envoy\r\nconnection:\x20close\r\n\r\nBad\x2
+SF:0Request")%r(DNSVersionBindReqTCP,9C,"HTTP/1\.1\x20400\x20Bad\x20Reques
+SF:t\r\ncontent-length:\x2011\r\ncontent-type:\x20text/plain\r\ndate:\x20S
+SF:at,\x2009\x20Mar\x202024\x2015:19:45\x20GMT\r\nserver:\x20envoy\r\nconn
+SF:ection:\x20close\r\n\r\nBad\x20Request")%r(DNSStatusRequestTCP,9C,"HTTP
+SF:/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r\ncontent-type
+SF::\x20text/plain\r\ndate:\x20Sat,\x2009\x20Mar\x202024\x2015:19:48\x20GM
+SF:T\r\nserver:\x20envoy\r\nconnection:\x20close\r\n\r\nBad\x20Request")%r
+SF:(Help,9C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ncontent-length:\x2011\r
+SF:\ncontent-type:\x20text/plain\r\ndate:\x20Sat,\x2009\x20Mar\x202024\x20
+SF:15:19:49\x20GMT\r\nserver:\x20envoy\r\nconnection:\x20close\r\n\r\nBad\
+SF:x20Request")%r(SSLSessionReq,9C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n
+SF:content-length:\x2011\r\ncontent-type:\x20text/plain\r\ndate:\x20Sat,\x
+SF:2009\x20Mar\x202024\x2015:19:51\x20GMT\r\nserver:\x20envoy\r\nconnectio
+SF:n:\x20close\r\n\r\nBad\x20Request");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  9 15:20:26 2024 -- 1 IP address (1 host up) scanned in 69.86 seconds
