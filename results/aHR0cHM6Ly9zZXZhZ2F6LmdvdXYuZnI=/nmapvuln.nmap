@@ -1,0 +1,124 @@
+# Nmap 7.92 scan initiated Sat Mar  9 14:50:34 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sevagaz.gouv.fr
+Nmap scan report for sevagaz.gouv.fr (51.254.145.84)
+Host is up (0.083s latency).
+rDNS record for 51.254.145.84: ip84.ip-51-254-145.eu
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE SERVICE    VERSION
+80/tcp   open  http
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, X11Probe: 
+|     HTTP/1.1 400 Bad request
+|     Content-length: 90
+|     Cache-Control: no-cache
+|     Connection: close
+|     Content-Type: text/html
+|     <html><body><h1>400 Bad request</h1>
+|     Your browser sent an invalid request.
+|     </body></html>
+|   FourOhFourRequest, GetRequest, HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 302 Found
+|     Cache-Control: no-cache
+|     Content-length: 0
+|     Location: https://sevagaz.gouv.fr
+|_    Connection: close
+443/tcp  open  ssl/https
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP, RPCCheck, tor-versions: 
+|     HTTP/1.1 400 Bad request
+|     Content-length: 90
+|     Cache-Control: no-cache
+|     Connection: close
+|     Content-Type: text/html
+|     <html><body><h1>400 Bad request</h1>
+|     Your browser sent an invalid request.
+|     </body></html>
+|   FourOhFourRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Date: Sat, 09 Mar 2024 14:50:54 GMT
+|     Strict-Transport-Security: max-age=63072000; includeSubDomains
+|     Content-Length: 199
+|     Connection: close
+|     Content-Type: text/html; charset=iso-8859-1
+|     Strict-Transport-Security: max-age=63072000; includeSubDomains
+|     X-Robots-Tag: noindex
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|     <html><head>
+|     <title>403 Forbidden</title>
+|     </head><body>
+|     <h1>Forbidden</h1>
+|     <p>You don't have permission to access this resource.</p>
+|     </body></html>
+|   GetRequest, HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 301 Moved Permanently
+|     Content-length: 0
+|     Location: https://sevagaz.gouv.fr/sevagaz/
+|_    Connection: close
+2222/tcp open  tcpwrapped
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.92%I=7%D=3/9%Time=65EC7747%P=x86_64-alpine-linux-musl%r(
+SF:GetRequest,78,"HTTP/1\.1\x20302\x20Found\r\nCache-Control:\x20no-cache\
+SF:r\nContent-length:\x200\r\nLocation:\x20https://sevagaz\.gouv\.fr\r\nCo
+SF:nnection:\x20close\r\n\r\n")%r(HTTPOptions,78,"HTTP/1\.1\x20302\x20Foun
+SF:d\r\nCache-Control:\x20no-cache\r\nContent-length:\x200\r\nLocation:\x2
+SF:0https://sevagaz\.gouv\.fr\r\nConnection:\x20close\r\n\r\n")%r(RTSPRequ
+SF:est,78,"HTTP/1\.1\x20302\x20Found\r\nCache-Control:\x20no-cache\r\nCont
+SF:ent-length:\x200\r\nLocation:\x20https://sevagaz\.gouv\.fr\r\nConnectio
+SF:n:\x20close\r\n\r\n")%r(X11Probe,CF,"HTTP/1\.1\x20400\x20Bad\x20request
+SF:\r\nContent-length:\x2090\r\nCache-Control:\x20no-cache\r\nConnection:\
+SF:x20close\r\nContent-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Ba
+SF:d\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\
+SF:.\n</body></html>\n")%r(FourOhFourRequest,78,"HTTP/1\.1\x20302\x20Found
+SF:\r\nCache-Control:\x20no-cache\r\nContent-length:\x200\r\nLocation:\x20
+SF:https://sevagaz\.gouv\.fr\r\nConnection:\x20close\r\n\r\n")%r(RPCCheck,
+SF:CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCach
+SF:e-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text
+SF:/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browse
+SF:r\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r(DNSVersio
+SF:nBindReqTCP,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x
+SF:2090\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-T
+SF:ype:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYo
+SF:ur\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n")
+SF:%r(DNSStatusRequestTCP,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nConten
+SF:t-length:\x2090\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r
+SF:\nContent-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20reque
+SF:st</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body>
+SF:</html>\n")%r(Help,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-le
+SF:ngth:\x2090\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nCo
+SF:ntent-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</
+SF:h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></ht
+SF:ml>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/9%Time=65EC774E%P=x86_64-alpine-linux-
+SF:musl%r(GetRequest,74,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nConte
+SF:nt-length:\x200\r\nLocation:\x20https://sevagaz\.gouv\.fr/sevagaz/\r\nC
+SF:onnection:\x20close\r\n\r\n")%r(HTTPOptions,74,"HTTP/1\.1\x20301\x20Mov
+SF:ed\x20Permanently\r\nContent-length:\x200\r\nLocation:\x20https://sevag
+SF:az\.gouv\.fr/sevagaz/\r\nConnection:\x20close\r\n\r\n")%r(FourOhFourReq
+SF:uest,1F2,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Sat,\x2009\x20Mar\x
+SF:202024\x2014:50:54\x20GMT\r\nStrict-Transport-Security:\x20max-age=6307
+SF:2000;\x20includeSubDomains\r\nContent-Length:\x20199\r\nConnection:\x20
+SF:close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\nStrict-Tr
+SF:ansport-Security:\x20max-age=63072000;\x20includeSubDomains\r\nX-Robots
+SF:-Tag:\x20noindex\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x
+SF:20HTML\x202\.0//EN\">\n<html><head>\n<title>403\x20Forbidden</title>\n<
+SF:/head><body>\n<h1>Forbidden</h1>\n<p>You\x20don't\x20have\x20permission
+SF:\x20to\x20access\x20this\x20resource\.</p>\n</body></html>\n")%r(tor-ve
+SF:rsions,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\
+SF:r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\
+SF:x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x2
+SF:0browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r(RT
+SF:SPRequest,74,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nContent-lengt
+SF:h:\x200\r\nLocation:\x20https://sevagaz\.gouv\.fr/sevagaz/\r\nConnectio
+SF:n:\x20close\r\n\r\n")%r(RPCCheck,CF,"HTTP/1\.1\x20400\x20Bad\x20request
+SF:\r\nContent-length:\x2090\r\nCache-Control:\x20no-cache\r\nConnection:\
+SF:x20close\r\nContent-Type:\x20text/html\r\n\r\n<html><body><h1>400\x20Ba
+SF:d\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\
+SF:.\n</body></html>\n")%r(DNSVersionBindReqTCP,CF,"HTTP/1\.1\x20400\x20Ba
+SF:d\x20request\r\nContent-length:\x2090\r\nCache-Control:\x20no-cache\r\n
+SF:Connection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<html><body><
+SF:h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid
+SF:\x20request\.\n</body></html>\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  9 14:52:20 2024 -- 1 IP address (1 host up) scanned in 106.13 seconds
