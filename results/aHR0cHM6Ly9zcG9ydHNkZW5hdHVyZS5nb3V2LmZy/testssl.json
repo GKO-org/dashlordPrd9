@@ -549,7 +549,7 @@
               "ip"           : "sportsdenature.gouv.fr/178.33.139.146",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "115 >= 60 days"
+              "finding"      : "113 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -752,7 +752,7 @@
               "ip"           : "sportsdenature.gouv.fr/178.33.139.146",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709997913"
+              "finding"      : "1710188066"
           }
 ,         {
               "id"           : "HSTS",
@@ -1308,6 +1308,6 @@
               "ip"           : "sportsdenature.gouv.fr/178.33.139.146",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "161"
+              "finding"      : "157"
           }
 ]
