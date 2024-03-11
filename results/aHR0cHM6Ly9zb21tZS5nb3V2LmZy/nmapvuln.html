@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln somme.gouv.fr</pre>
-<p class="lead">Sat Mar  9 15:21:57 2024 – Sat Mar  9 15:22:47 2024<br>1 hosts scanned.
+<p class="lead">Mon Mar 11 20:10:04 2024 – Mon Mar 11 20:10:55 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -126,21 +126,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 15:22:16 GMT
-    server: Apache
-    cache-control: no-cache
-    content-type: text/html
-    age: 0
-    x-cache: Miss
-    content-length: 94
-    keep-alive: timeout=5, max=100
-    connection: close
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
-    Request forbidden by administrative rules.
-    &lt;/body&gt;&lt;/html&gt;
-  GetRequest: 
-    HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 15:22:14 GMT
+    date: Mon, 11 Mar 2024 20:10:23 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -150,23 +136,28 @@
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
-  HTTPOptions: 
+  GetRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 15:22:15 GMT
+    date: Mon, 11 Mar 2024 20:10:22 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
     age: 0
     x-cache: Miss
-    content-length: 94
-    keep-alive: timeout=5, max=100
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
+    &lt;/body&gt;&lt;/html&gt;
+  RPCCheck, X11Probe: 
+    HTTP/1.0 400 Bad request
+    cache-control: no-cache
+    content-type: text/html
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Sat, 09 Mar 2024 15:22:15 GMT
+    date: Mon, 11 Mar 2024 20:10:22 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
@@ -178,13 +169,6 @@
     &lt;h1&gt;Bad Request&lt;/h1&gt;
     &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
     &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  X11Probe: 
-    HTTP/1.0 400 Bad request
-    cache-control: no-cache
-    content-type: text/html
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
-    Your browser sent an invalid request.
     &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
 <tr class="success">
@@ -201,33 +185,9 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
+  FourOhFourRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 15:22:22 GMT
-    server: Apache
-    cache-control: no-cache
-    content-type: text/html
-    age: 0
-    x-cache: Miss
-    connection: close
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
-    Request forbidden by administrative rules.
-    &lt;/body&gt;&lt;/html&gt;
-  GetRequest: 
-    HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 15:22:21 GMT
-    server: Apache
-    cache-control: no-cache
-    content-type: text/html
-    age: 0
-    x-cache: Miss
-    connection: close
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
-    Request forbidden by administrative rules.
-    &lt;/body&gt;&lt;/html&gt;
-  HTTPOptions: 
-    HTTP/1.1 403 Forbidden
-    date: Sat, 09 Mar 2024 15:22:21 GMT
+    date: Mon, 11 Mar 2024 20:10:30 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -239,16 +199,21 @@
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
-  RPCCheck, tor-versions: 
-    HTTP/1.0 400 Bad request
+  GetRequest: 
+    HTTP/1.1 403 Forbidden
+    date: Mon, 11 Mar 2024 20:10:29 GMT
+    server: Apache
     cache-control: no-cache
     content-type: text/html
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
-    Your browser sent an invalid request.
+    age: 0
+    x-cache: Miss
+    connection: close
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
+    Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Sat, 09 Mar 2024 15:22:29 GMT
+    date: Mon, 11 Mar 2024 20:10:37 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
@@ -260,6 +225,13 @@
     &lt;h1&gt;Bad Request&lt;/h1&gt;
     &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
     &lt;/p&gt;
+    &lt;/body&gt;&lt;/html&gt;
+  tor-versions: 
+    HTTP/1.0 400 Bad request
+    cache-control: no-cache
+    content-type: text/html
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
     &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
 </tbody>
