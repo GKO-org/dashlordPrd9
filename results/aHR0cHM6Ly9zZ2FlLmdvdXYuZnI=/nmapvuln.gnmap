@@ -1,1 +1,2 @@
-# Nmap 7.92 scan initiated Sat Mar  9 14:53:40 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sgae.gouv.fr
+# Nmap 7.92 scan initiated Mon Mar 11 19:58:30 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sgae.gouv.fr
+# Nmap done at Mon Mar 11 19:58:33 2024 -- 1 IP address (0 hosts up) scanned in 3.55 seconds
