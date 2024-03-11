@@ -367,7 +367,7 @@
               "ip"           : "societenumerique.gouv.fr/146.59.226.142",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "69 >= 30 days"
+              "finding"      : "66 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -528,7 +528,7 @@
               "ip"           : "societenumerique.gouv.fr/146.59.226.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709997022"
+              "finding"      : "1710187432"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "societenumerique.gouv.fr/146.59.226.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "99"
+              "finding"      : "61"
           }
 ]
