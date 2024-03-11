@@ -24,16 +24,27 @@ tools:
   budget_page: true
   betagouv: true
 urls:
+  - url: https://france-visas.gouv.fr
+  - url: https://registre-coproprietes.gouv.fr
+  - url: https://retraitesdeletat.gouv.fr
+  - url: https://reunion.gouv.fr
+  - url: https://rhone.gouv.fr
+  - url: https://saint-barth-saint-martin.gouv.fr
+  - url: https://saint-pierre-et-miquelon.gouv.fr
+  - url: https://sante.gouv.fr
+  - url: https://saone-et-loire.gouv.fr
+  - url: https://sarthe.gouv.fr
+  - url: https://savoie.gouv.fr
+  - url: https://securite-routiere.gouv.fr
+  - url: https://seine-et-marne.gouv.fr
+  - url: https://ofpra.gouv.fr
+  - url: https://seine-saint-denis.gouv.fr
+  - url: https://semaine-industrie.gouv.fr
   - url: https://service-civique.gouv.fr
-  - url: https://service-public.fr
   - url: https://servicesalapersonne.gouv.fr
-  - url: https://sevagaz.gouv.fr
   - url: https://sgae.gouv.fr
   - url: https://cfssi.gouv.fr
-  - url: https://signal.conso.gouv.fr
-  - url: https://signalement.social-sante.gouv.fr
   - url: https://formationgestiondecrise.gouv.fr
-  - url: https://sirius-recette.apprentissage.beta.gouv.fr
   - url: https://snds.gouv.fr
   - url: https://snu.gouv.fr
   - url: https://societenumerique.gouv.fr
@@ -43,24 +54,3 @@ urls:
   - url: https://sports.gouv.fr
   - url: https://sportsdenature.gouv.fr
   - url: https://francestrategie.gouv.fr
-  - url: https://stationnement.gouv.fr
-  - url: https://insp.gouv.fr
-  - url: https://secnumacademie.gouv.fr
-  - url: https://systeme-de-design.gouv.fr
-  - url: https://tarifs-bancaires.gouv.fr
-  - url: https://tarn.gouv.fr
-  - url: https://tarn-et-garonne.gouv.fr
-  - url: https://territoire-de-belfort.gouv.fr
-  - url: https://territoireengagetransitionecologique.ademe.fr
-  - url: https://tmp.justice.gouv.fr
-  - url: https://tourisme-handicap.gouv.fr
-  - url: https://ssi.gouv.fr
-  - url: https://transformation.gouv.fr
-  - url: https://transparence.sante.gouv.fr
-  - url: https://travail-emploi.gouv.fr
-  - url: https://strategie.gouv.fr
-  - url: https://vigipirate.gouv.fr
-  - url: https://vae.gouv.fr
-  - url: https://val-de-marne.gouv.fr
-  - url: https://val-doise.gouv.fr
-  - url: https://var.gouv.fr
