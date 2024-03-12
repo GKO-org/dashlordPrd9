@@ -34232,38 +34232,37 @@
     "http": {
       "url": "https://solidarites.gouv.fr",
       "algorithm_version": 3,
-      "end_time": "Sat, 09 Mar 2024 15:13:11 GMT",
+      "end_time": "Mon, 11 Mar 2024 20:05:51 GMT",
       "grade": "C",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
       "response_headers": {
         "Accept-Ranges": "bytes",
-        "Age": "503",
+        "Age": "10280",
         "Cache-Control": "max-age=10800, public",
         "Connection": "keep-alive",
         "Content-Encoding": "gzip",
-        "Content-Length": "13794",
+        "Content-Length": "14350",
         "Content-Type": "text/html; charset=UTF-8",
         "Content-language": "fr",
-        "Date": "Sat, 09 Mar 2024 02:47:59 GMT",
-        "ETag": "\"1709952479-gzip\"",
+        "Date": "Mon, 11 Mar 2024 17:14:23 GMT",
+        "ETag": "\"1710177263-gzip\"",
         "Expires": "Sun, 19 Nov 1978 05:00:00 GMT",
-        "Last-Modified": "Sat, 09 Mar 2024 02:47:59 GMT",
-        "Set-Cookie": "BIGipServerpool-handicap-v2.cegedim.cloud-HTTP=3468974346.20480.0000; path=/; Httponly; Secure",
+        "Last-Modified": "Mon, 11 Mar 2024 17:14:23 GMT",
+        "Set-Cookie": "BIGipServerpool-handicap-v2.cegedim.cloud-HTTP=3485751562.20480.0000; path=/; Httponly; Secure",
         "Vary": "Cookie,Accept-Encoding",
         "X-Cache": "HIT",
-        "X-Cache-Hits": "3",
-        "X-Content-Type-Options": "nosniff, nosniff",
-        "X-Frame-Options": "SAMEORIGIN",
-        "X-UA-Compatible": "IE=edge"
+        "X-Cache-Hits": "143",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN"
       },
-      "scan_id": 48657694,
-      "score": 50,
-      "start_time": "Sat, 09 Mar 2024 15:13:07 GMT",
+      "scan_id": 48739082,
+      "score": 55,
+      "start_time": "Mon, 11 Mar 2024 20:05:42 GMT",
       "state": "FINISHED",
       "status_code": 200,
-      "tests_failed": 3,
-      "tests_passed": 8,
+      "tests_failed": 2,
+      "tests_passed": 9,
       "tests_quantity": 11,
       "details": {
         "content-security-policy": {
@@ -34390,12 +34389,12 @@
           "expectation": "x-content-type-options-nosniff",
           "name": "x-content-type-options",
           "output": {
-            "data": "nosniff, nosniff"
+            "data": "nosniff"
           },
-          "pass": false,
-          "result": "x-content-type-options-header-invalid",
-          "score_description": "X-Content-Type-Options header cannot be recognized",
-          "score_modifier": -5
+          "pass": true,
+          "result": "x-content-type-options-nosniff",
+          "score_description": "X-Content-Type-Options header set to \"nosniff\"",
+          "score_modifier": 0
         },
         "x-frame-options": {
           "expectation": "x-frame-options-sameorigin-or-deny",
@@ -34795,7 +34794,7 @@
         "ip": "solidarites.gouv.fr/185.194.82.206",
         "port": "443",
         "severity": "OK",
-        "finding": "353 >= 60 days"
+        "finding": "350 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -34949,21 +34948,21 @@
         "ip": "solidarites.gouv.fr/185.194.82.206",
         "port": "443",
         "severity": "INFO",
-        "finding": "-41426 seconds from localtime"
+        "finding": "-43721 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "solidarites.gouv.fr/185.194.82.206",
         "port": "443",
         "severity": "INFO",
-        "finding": "1709952479"
+        "finding": "1710177263"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "solidarites.gouv.fr/185.194.82.206",
         "port": "443",
         "severity": "INFO",
-        "finding": "3349 seconds"
+        "finding": "7462 seconds"
       },
       {
         "id": "HSTS",
@@ -35020,7 +35019,7 @@
         "port": "443",
         "severity": "MEDIUM",
         "cwe": "CWE-212",
-        "finding": "Information leakage: F5 cookie BIGipServerpool-handicap-v2.cegedim.cloud-HTTP 3485751562.20480.0000 is default IPv4 pool member 10.89.196.207:80"
+        "finding": "Information leakage: F5 cookie BIGipServerpool-handicap-v2.cegedim.cloud-HTTP 3468974346.20480.0000 is default IPv4 pool member 10.89.196.206:80"
       },
       {
         "id": "X-Frame-Options",
@@ -35030,25 +35029,11 @@
         "finding": "SAMEORIGIN"
       },
       {
-        "id": "X-Content-Type-Options_multiple",
-        "ip": "solidarites.gouv.fr/185.194.82.206",
-        "port": "443",
-        "severity": "MEDIUM",
-        "finding": "Multiple X-Content-Type-Options headers. Using first header: nosniff"
-      },
-      {
         "id": "X-Content-Type-Options",
         "ip": "solidarites.gouv.fr/185.194.82.206",
         "port": "443",
         "severity": "OK",
         "finding": "nosniff"
-      },
-      {
-        "id": "X-UA-Compatible",
-        "ip": "solidarites.gouv.fr/185.194.82.206",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "IE=edge"
       },
       {
         "id": "Cache-Control",
@@ -35063,7 +35048,7 @@
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-200",
-        "finding": "X-Cache: HITX-Cache-Hits: 42"
+        "finding": "X-Cache: HITX-Cache-Hits: 82"
       },
       {
         "id": "heartbleed",
@@ -35569,7 +35554,7 @@
         "ip": "solidarites.gouv.fr/185.194.82.206",
         "port": "443",
         "severity": "INFO",
-        "finding": "80"
+        "finding": "128"
       }
     ],
     "thirdparties": null,
@@ -35580,7 +35565,7 @@
       {
         "requestedUrl": "https://solidarites.gouv.fr/",
         "finalUrl": "https://solidarites.gouv.fr/",
-        "fetchTime": "2024-03-09T15:12:56.072Z",
+        "fetchTime": "2024-03-12T07:25:38.523Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -35643,53 +35628,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 5782,
+            "numericValue": 6795,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 2932,
-                  "firstMeaningfulPaint": 2932,
-                  "largestContentfulPaint": 4140,
-                  "interactive": 5782,
-                  "speedIndex": 4823,
-                  "totalBlockingTime": 150,
-                  "maxPotentialFID": 355,
-                  "cumulativeLayoutShift": 0.0011229383680555556,
-                  "cumulativeLayoutShiftMainFrame": 0.0011229383680555556,
-                  "totalCumulativeLayoutShift": 0.0011229383680555556,
+                  "firstContentfulPaint": 4186,
+                  "firstMeaningfulPaint": 4186,
+                  "largestContentfulPaint": 6114,
+                  "interactive": 6795,
+                  "speedIndex": 8353,
+                  "totalBlockingTime": 280,
+                  "maxPotentialFID": 246,
+                  "cumulativeLayoutShift": 0.001296332465277778,
+                  "cumulativeLayoutShiftMainFrame": 0.001296332465277778,
+                  "totalCumulativeLayoutShift": 0.001296332465277778,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 111151497,
+                  "observedTimeOriginTs": 230360129,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 111151497,
-                  "observedFirstPaint": 1171,
-                  "observedFirstPaintTs": 112322160,
-                  "observedFirstContentfulPaint": 1171,
-                  "observedFirstContentfulPaintTs": 112322160,
-                  "observedFirstContentfulPaintAllFrames": 1171,
-                  "observedFirstContentfulPaintAllFramesTs": 112322160,
-                  "observedFirstMeaningfulPaint": 1171,
-                  "observedFirstMeaningfulPaintTs": 112322160,
-                  "observedLargestContentfulPaint": 1299,
-                  "observedLargestContentfulPaintTs": 112450776,
-                  "observedLargestContentfulPaintAllFrames": 1299,
-                  "observedLargestContentfulPaintAllFramesTs": 112450776,
-                  "observedTraceEnd": 3793,
-                  "observedTraceEndTs": 114944552,
-                  "observedLoad": 1402,
-                  "observedLoadTs": 112553573,
-                  "observedDomContentLoaded": 1159,
-                  "observedDomContentLoadedTs": 112310207,
-                  "observedCumulativeLayoutShift": 0.0011229383680555556,
-                  "observedCumulativeLayoutShiftMainFrame": 0.0011229383680555556,
-                  "observedTotalCumulativeLayoutShift": 0.0011229383680555556,
-                  "observedFirstVisualChange": 1177,
-                  "observedFirstVisualChangeTs": 112328497,
-                  "observedLastVisualChange": 1627,
-                  "observedLastVisualChangeTs": 112778497,
-                  "observedSpeedIndex": 1454,
-                  "observedSpeedIndexTs": 112605329
+                  "observedNavigationStartTs": 230360129,
+                  "observedFirstPaint": 2212,
+                  "observedFirstPaintTs": 232572221,
+                  "observedFirstContentfulPaint": 2212,
+                  "observedFirstContentfulPaintTs": 232572221,
+                  "observedFirstContentfulPaintAllFrames": 2212,
+                  "observedFirstContentfulPaintAllFramesTs": 232572221,
+                  "observedFirstMeaningfulPaint": 2212,
+                  "observedFirstMeaningfulPaintTs": 232572221,
+                  "observedLargestContentfulPaint": 2595,
+                  "observedLargestContentfulPaintTs": 232955403,
+                  "observedLargestContentfulPaintAllFrames": 2595,
+                  "observedLargestContentfulPaintAllFramesTs": 232955403,
+                  "observedTraceEnd": 5122,
+                  "observedTraceEndTs": 235482543,
+                  "observedLoad": 2661,
+                  "observedLoadTs": 233020718,
+                  "observedDomContentLoaded": 2172,
+                  "observedDomContentLoadedTs": 232532091,
+                  "observedCumulativeLayoutShift": 0.001296332465277778,
+                  "observedCumulativeLayoutShiftMainFrame": 0.001296332465277778,
+                  "observedTotalCumulativeLayoutShift": 0.001296332465277778,
+                  "observedFirstVisualChange": 2213,
+                  "observedFirstVisualChangeTs": 232573129,
+                  "observedLastVisualChange": 3047,
+                  "observedLastVisualChangeTs": 233407129,
+                  "observedSpeedIndex": 2783,
+                  "observedSpeedIndexTs": 233143174
                 },
                 {
                   "lcpInvalidated": false
@@ -35711,19 +35696,19 @@
                   "numScripts": 11,
                   "numStylesheets": 4,
                   "numFonts": 4,
-                  "numTasks": 758,
-                  "numTasksOver10ms": 11,
-                  "numTasksOver25ms": 5,
-                  "numTasksOver50ms": 4,
-                  "numTasksOver100ms": 1,
+                  "numTasks": 842,
+                  "numTasksOver10ms": 12,
+                  "numTasksOver25ms": 6,
+                  "numTasksOver50ms": 5,
+                  "numTasksOver100ms": 3,
                   "numTasksOver500ms": 0,
-                  "rtt": 80.009,
-                  "throughput": 10494044.24414845,
-                  "maxRtt": 87.45400000000001,
-                  "maxServerLatency": 1.1199999999999903,
-                  "totalByteWeight": 539062,
-                  "totalTaskTime": 647.1740000000002,
-                  "mainDocumentTransferSize": 14456
+                  "rtt": 148.368,
+                  "throughput": 7009188.737654039,
+                  "maxRtt": 156.214,
+                  "maxServerLatency": 0.9610000000000127,
+                  "totalByteWeight": 534915,
+                  "totalTaskTime": 1105.9579999999999,
+                  "mainDocumentTransferSize": 14953
                 }
               ]
             }
