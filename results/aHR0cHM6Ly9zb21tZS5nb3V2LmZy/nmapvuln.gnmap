@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Mon Mar 11 20:10:04 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln somme.gouv.fr
+# Nmap 7.92 scan initiated Tue Mar 12 10:55:09 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln somme.gouv.fr
 Host: 77.159.252.140 (140.252.159.77.rev.sfr.net)	Status: Up
 Host: 77.159.252.140 (140.252.159.77.rev.sfr.net)	Ports: 80/open/tcp//http//Apache/, 443/open/tcp//ssl|https//Apache/	Ignored State: filtered (998)
-# Nmap done at Mon Mar 11 20:10:55 2024 -- 1 IP address (1 host up) scanned in 50.54 seconds
+# Nmap done at Tue Mar 12 10:55:46 2024 -- 1 IP address (1 host up) scanned in 37.18 seconds
