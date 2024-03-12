@@ -528,7 +528,7 @@
               "ip"           : "societenumerique.gouv.fr/146.59.226.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710187432"
+              "finding"      : "1710240656"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "societenumerique.gouv.fr/146.59.226.142",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "61"
+              "finding"      : "52"
           }
 ]

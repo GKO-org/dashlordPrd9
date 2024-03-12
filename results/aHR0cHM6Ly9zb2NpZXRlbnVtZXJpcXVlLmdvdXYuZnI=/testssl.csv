@@ -73,7 +73,7 @@
 "intermediate_cert_badOCSP","societenumerique.gouv.fr/146.59.226.142","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","societenumerique.gouv.fr/146.59.226.142","443","INFO","302 Found ('/')","",""
 "HTTP_clock_skew","societenumerique.gouv.fr/146.59.226.142","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","societenumerique.gouv.fr/146.59.226.142","443","INFO","1710187432","",""
+"HTTP_headerTime","societenumerique.gouv.fr/146.59.226.142","443","INFO","1710240656","",""
 "HSTS","societenumerique.gouv.fr/146.59.226.142","443","LOW","not offered","",""
 "HPKP","societenumerique.gouv.fr/146.59.226.142","443","INFO","No support for HTTP Public Key Pinning","",""
 "banner_server","societenumerique.gouv.fr/146.59.226.142","443","INFO","nginx/1.18.0 (Ubuntu)","",""
