@@ -339,7 +339,7 @@
               "ip"           : "servicesalapersonne.gouv.fr/45.223.153.83",
               "port"         : "443",
               "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (24)"
+              "finding"      : "expires < 30 days (23)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1398,7 +1398,7 @@
               "ip"           : "servicesalapersonne.gouv.fr/45.223.60.83",
               "port"         : "443",
               "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (24)"
+              "finding"      : "expires < 30 days (23)"
           }
 ,         {
               "id"           : "cert_notBefore",
