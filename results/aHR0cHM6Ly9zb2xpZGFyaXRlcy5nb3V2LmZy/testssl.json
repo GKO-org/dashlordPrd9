@@ -339,7 +339,7 @@
               "ip"           : "solidarites.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "353 >= 60 days"
+              "finding"      : "350 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,21 +493,21 @@
               "ip"           : "solidarites.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-41426 seconds from localtime"
+              "finding"      : "-43721 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "solidarites.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709952479"
+              "finding"      : "1710177263"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "solidarites.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3349 seconds"
+              "finding"      : "7462 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -564,7 +564,7 @@
               "port"         : "443",
               "severity"     : "MEDIUM",
               "cwe"          : "CWE-212",
-              "finding"      : "Information leakage: F5 cookie BIGipServerpool-handicap-v2.cegedim.cloud-HTTP 3485751562.20480.0000 is default IPv4 pool member 10.89.196.207:80"
+              "finding"      : "Information leakage: F5 cookie BIGipServerpool-handicap-v2.cegedim.cloud-HTTP 3468974346.20480.0000 is default IPv4 pool member 10.89.196.206:80"
           }
 ,         {
               "id"           : "X-Frame-Options",
@@ -574,25 +574,11 @@
               "finding"      : "SAMEORIGIN"
           }
 ,         {
-              "id"           : "X-Content-Type-Options_multiple",
-              "ip"           : "solidarites.gouv.fr/185.194.82.206",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "Multiple X-Content-Type-Options headers. Using first header: nosniff"
-          }
-,         {
               "id"           : "X-Content-Type-Options",
               "ip"           : "solidarites.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "nosniff"
-          }
-,         {
-              "id"           : "X-UA-Compatible",
-              "ip"           : "solidarites.gouv.fr/185.194.82.206",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "IE=edge"
           }
 ,         {
               "id"           : "Cache-Control",
@@ -607,7 +593,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cache: HITX-Cache-Hits: 42"
+              "finding"      : "X-Cache: HITX-Cache-Hits: 82"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1113,6 +1099,6 @@
               "ip"           : "solidarites.gouv.fr/185.194.82.206",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "80"
+              "finding"      : "128"
           }
 ]
