@@ -542,7 +542,7 @@
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710187095"
+              "finding"      : "1710240399"
           }
 ,         {
               "id"           : "HSTS",
@@ -1140,6 +1140,6 @@
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "87"
+              "finding"      : "139"
           }
 ]
