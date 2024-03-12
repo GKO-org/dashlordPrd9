@@ -25,7 +25,7 @@ tools:
   betagouv: true
 urls:
   - url: https://france-visas.gouv.fr
-  - url: https://registre-coproprietes.gouv.fr
+  - url: https://www.registre-coproprietes.gouv.fr/
   - url: https://retraitesdeletat.gouv.fr
   - url: https://reunion.gouv.fr
   - url: https://rhone.gouv.fr
@@ -38,11 +38,11 @@ urls:
   - url: https://securite-routiere.gouv.fr
   - url: https://seine-et-marne.gouv.fr
   - url: https://ofpra.gouv.fr
-  - url: https://seine-saint-denis.gouv.fr
-  - url: https://semaine-industrie.gouv.fr
+  - url: https://www.seine-saint-denis.gouv.fr
+  - url: https://www.semaine-industrie.gouv.fr
   - url: https://service-civique.gouv.fr
   - url: https://servicesalapersonne.gouv.fr
-  - url: https://sgae.gouv.fr
+  - url: https://sgae.gouv.fr/sites/SGAE/accueil.html
   - url: https://cfssi.gouv.fr
   - url: https://formationgestiondecrise.gouv.fr
   - url: https://snds.gouv.fr
