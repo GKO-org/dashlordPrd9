@@ -339,7 +339,7 @@
               "ip"           : "saint-pierre-et-miquelon.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (51)"
+              "finding"      : "expires < 60 days (50)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,14 +493,14 @@
               "ip"           : "saint-pierre-et-miquelon.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "saint-pierre-et-miquelon.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710185470"
+              "finding"      : "1710238538"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -1084,6 +1084,6 @@
               "ip"           : "saint-pierre-et-miquelon.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "64"
+              "finding"      : "100"
           }
 ]
