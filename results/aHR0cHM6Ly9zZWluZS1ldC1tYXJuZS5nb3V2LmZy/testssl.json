@@ -262,7 +262,7 @@
               "ip"           : "seine-et-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "40023AD2A5D08ADCA0C1ABFD163A5D9B"
+              "finding"      : "3A1E85AB372CD6D821C393B5D15B06BB"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "seine-et-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "49CAC29A0F5D5086198002FC62AE2D003B9E7FE2"
+              "finding"      : "DC9858B4440D8CBBAF40EDCB26C0139D2051A246"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "seine-et-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9FBC2C8ACC25D696486398D61A034C484CC4CEF78B2DCBFEB06EAEAB56A3AB97"
+              "finding"      : "FBF18418A2CD727242A3DB78F4B5679A6F6E29ADF5D5E7674A4063C206C887AD"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "seine-et-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "seine-et-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "seine-et-marne.gouv.fr www.seine-et-marne.gouv.fr"
+              "finding"      : "www.seine-et-marne.gouv.fr seine-et-marne.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -339,21 +339,21 @@
               "ip"           : "seine-et-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "233 >= 60 days"
+              "finding"      : "105 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "seine-et-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-10-02 22:00"
+              "finding"      : "2024-03-22 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "seine-et-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-10-31 22:59"
+              "finding"      : "2024-10-30 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -374,14 +374,14 @@
               "ip"           : "seine-et-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "seine-et-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -500,7 +500,7 @@
               "ip"           : "seine-et-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710239300"
+              "finding"      : "1721231226"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9FBC2C8ACC25D696486398D61A034C484CC4CEF78B2DCBFEB06EAEAB56A3AB97"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=FBF18418A2CD727242A3DB78F4B5679A6F6E29ADF5D5E7674A4063C206C887AD"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "seine-et-marne.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93"
+              "finding"      : "104"
           }
 ]
