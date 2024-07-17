@@ -262,7 +262,7 @@
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "SHA256 with RSA"
+              "finding"      : "SHA384 with RSA"
           }
 ,         {
               "id"           : "cert_keySize",
@@ -290,7 +290,7 @@
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6B6AAEC245B08E8CAB5B180901D707CC"
+              "finding"      : "A9254F193224F028C470D9C1B70C005B"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -304,21 +304,21 @@
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "99FE5E64CB56BE9698D26A1202A3891452DC1A52"
+              "finding"      : "EC16B5079264543B60D39E6FBDD445FD9AA828DC"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "694F08E45512C8AC746042DA23CD6B61C52E69A98CDFF54F71896F79D03E917C"
+              "finding"      : "DEA980E95DB1F3B9AACA30A52C31723D05B2988B89E0ABD1F99A8997E096574A"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFbzCCBFegAwIBAgIQa2quwkWwjoyrWxgJAdcHzDANBgkqhkiG9w0BAQsFADBfMQswCQYDVQQGEwJGUjEOMAwGA1UECBMFUGFyaXMxDjAMBgNVBAcTBVBhcmlzMQ4wDAYDVQQKEwVHYW5kaTEgMB4GA1UEAxMXR2FuZGkgU3RhbmRhcmQgU1NMIENBIDIwHhcNMjMwNTEyMDAwMDAwWhcNMjQwNTEyMjM1OTU5WjAiMSAwHgYDVQQDExdmcmFuY2VzdHJhdGVnaWUuZ291di5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPJq8NfPWPN1OdILf95O7bYdY+hxLTLbFlZ/l6SRxv/s8OYMvvq+gn5nax4XX+MukfT4sTmIbNmaYJ5W1Gdouc2jggMtMIIDKTAfBgNVHSMEGDAWgBSzkKfYya9OzWE8n3ytXX9B/Wkw6jAdBgNVHQ4EFgQUyFZcI02qWFU9vcnDe8RTwN77HpAwDgYDVR0PAQH/BAQDAgeAMAwGA1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMEsGA1UdIAREMEIwNgYLKwYBBAGyMQECAhowJzAlBggrBgEFBQcCARYZaHR0cHM6Ly9jcHMudXNlcnRydXN0LmNvbTAIBgZngQwBAgEwQQYDVR0fBDowODA2oDSgMoYwaHR0cDovL2NybC51c2VydHJ1c3QuY29tL0dhbmRpU3RhbmRhcmRTU0xDQTIuY3JsMHMGCCsGAQUFBwEBBGcwZTA8BggrBgEFBQcwAoYwaHR0cDovL2NydC51c2VydHJ1c3QuY29tL0dhbmRpU3RhbmRhcmRTU0xDQTIuY3J0MCUGCCsGAQUFBzABhhlodHRwOi8vb2NzcC51c2VydHJ1c3QuY29tMCIGA1UdEQQbMBmCF2ZyYW5jZXN0cmF0ZWdpZS5nb3V2LmZyMIIBfwYKKwYBBAHWeQIEAgSCAW8EggFrAWkAdgB2/4g/Crb7lVHCYcz1h7o0tKTNuyncaEIKn+ZnTFo6dAAAAYgQQBtFAAAEAwBHMEUCIGLKHo66udolBdwh7p7Cs4XyAlZaL8yWQChw5RiDtNfNAiEA5Wm6+jsHVyKSmda2/GKHMdB6seFFWORNNR99VC2UbLgAdgDatr9rP7W2Ip+bwrtca+hwkXFsu1GEhTS9pD0wSNf7qwAAAYgQQButAAAEAwBHMEUCIQCsjDR3n5j0H4paxrthB2FonHO3mQKenTJP5Ur6TlEozAIgLUr0grWiKEqtKeLx5Rfrgek1n0VMmUVqiKqwM5gGs8QAdwDuzdBk1dsazsVct520zROiModGfLzs3sNRSFlGcR+1mwAAAYgQQBt5AAAEAwBIMEYCIQCMOBc7QoU9wckpx9Oco+w4NGhHqGPabMlTMTw4H2wDvwIhALrpre1R4rNb6HDFQldxSFovhZhegjvwPFHpabdqjHjeMA0GCSqGSIb3DQEBCwUAA4IBAQArGjI22NTTt26cq3N9lmXmhHqbT+3C/9PN4foiJcWt/AqHtoNdJux+yfuirqqt5DrHbKG7sHVNuf0ra+je3W/GFmyeJI4VcZOYOfvuIhEGJx0ME7DLr4MOrUE6zVTY22rjG0sDG4ng57Y1lc7joApgZRm5s1N7tfTKdGaSx0bPJRmMfAEpEM5D1Eqeg5cF9Il61ZRJj4prUIwuJJDw2AyPz5lsrK56zkMQ6sNqnFRUUJhzIleokA4BLV9rOHXAmaBVEu1PiBTFus4tN238FtxNFM4MTvakNVeCVrtEw0IBZLE3gauZkrmYAep7WMUuGPb984bb1hytiI2dZDV41I45\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFsjCCBBqgAwIBAgIRAKklTxkyJPAoxHDZwbcMAFswDQYJKoZIhvcNAQEMBQAwVjELMAkGA1UEBhMCRlIxDjAMBgNVBAoTBUdhbmRpMTcwNQYDVQQDEy5HYW5kaSBSU0EgRG9tYWluIFZhbGlkYXRpb24gU2VjdXJlIFNlcnZlciBDQSAzMB4XDTI0MDQxMzAwMDAwMFoXDTI1MDUxMjIzNTk1OVowIjEgMB4GA1UEAxMXZnJhbmNlc3RyYXRlZ2llLmdvdXYuZnIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATzCXI8L+SubffNN6vB5Mz3kQSs6YTuV0AsNqnPbpQXsacGP4JBaihbEj3UTzKF79J87PAgHTktX6Dj1OWTzWWXo4IC+DCCAvQwHwYDVR0jBBgwFoAUgRGS3mYypbBbMz1lQ4X81AQt8a4wHQYDVR0OBBYEFKT+ew6+Pk5kFLVs/cCVA0GoAEkaMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBJBgNVHSAEQjBAMDQGCysGAQQBsjEBAgIaMCUwIwYIKwYBBQUHAgEWF2h0dHBzOi8vc2VjdGlnby5jb20vQ1BTMAgGBmeBDAECATCBgwYIKwYBBQUHAQEEdzB1ME4GCCsGAQUFBzAChkJodHRwOi8vY3J0LnNlY3RpZ28uY29tL0dhbmRpUlNBRG9tYWluVmFsaWRhdGlvblNlY3VyZVNlcnZlckNBMy5jcnQwIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLnNlY3RpZ28uY29tMCIGA1UdEQQbMBmCF2ZyYW5jZXN0cmF0ZWdpZS5nb3V2LmZyMIIBfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdwDPEVbu1S58r/OHW9lpLpvpGnFnSrAX7KwB0lt3zsw7CAAAAY7U1PrhAAAEAwBIMEYCIQDKP0eGW2Qfl/7590/CL27zd4ETNQstna/LnF4td2kprAIhAKBv62TwIlXtM/mhr2C2cppKu5NzGY0uVkBuZYjmuNmjAHUAouMK5EXvva2bfjjtR2d3U9eCW4SU1yteGyzEuVCkR+cAAAGO1NT6jwAABAMARjBEAiAstZU5jgdsI0X9G6q2Xw6tGD3nCbxf1KCfdl+OrJTLTAIgPB/HJ9WwjDYkDPLiiHHUe3aoQXqPZRW9JKM/7+ZfF0wAdgBOdaMnXJoQwzhbbNTfP1LrHfDgjhuNacCx+mSxYpo53wAAAY7U1PqGAAAEAwBHMEUCIAO2QEtNCXFA3EG7ettkIZLSmyWSHG9eNxz5HhcJwt80AiEAi+1562kAXzLGEvPQbIUvoKOpgiJzbzE5IkTG2+qvRvwwDQYJKoZIhvcNAQEMBQADggGBAH49pHROAjBqhud83tYyXoGa/51jhPKjfIkNkPiWga/jvictP9v9J3sKlL8sMm/Z399wnt2rZ7OOE4HZ0wx9D2Iw3ofYfIYN4oDGIQH1KjMDyxlClIE1X/7NnDA2xc370T6fhwg2xy1CDZ3TKwdjVbr+TkP5dR5PbQP+jju2BUSTLo1LkVBuy1gvEGgerulJtN0Ppfz8jMBFLQWax+71iLB2LPNJ9Zg002MNdH+IOzAeRC33qJmQPs4AylrnxtYWo/k9SgSSkBoGvcwPGu2FVvpqME39FAwPQyn37DuaX4M6Vj96aMkVMUBdcXO/PsC/i+cZ6odyyswIoKMpKOQToaklC/lcl5KnlaP8VQ2xeTCAWg4kXeL7ra2Hu2g4//SpOGzJ0C1KAmRHvBHTFbtwsFRGMToQxFY4VnpN2wFzvR2zXoXgUQG+CzBk/gTKAr8TVlG641TvC4sMdZYPrVZtkpwyItPbQtxGcb72IpQKZYjL+PxFZr/5Cg8/ge+K9TWXEA==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -367,21 +367,21 @@
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "61 >= 60 days"
+              "finding"      : "299 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-05-12 00:00"
+              "finding"      : "2024-04-13 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-05-12 23:59"
+              "finding"      : "2025-05-12 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -402,14 +402,14 @@
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.usertrust.com/GandiStandardSSLCA2.crl"
+              "finding"      : "--"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://ocsp.usertrust.com"
+              "finding"      : "http://ocsp.sectigo.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -465,35 +465,35 @@
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Gandi Standard SSL CA 2 (Gandi from FR)"
+              "finding"      : "Gandi RSA Domain Validation Secure Server CA 3 (Gandi from FR)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIGXDCCBESgAwIBAgIRAOkH5f+AdSJBCZB9ZyjKABAwDQYJKoZIhvcNAQEMBQAwgYgxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpOZXcgSmVyc2V5MRQwEgYDVQQHEwtKZXJzZXkgQ2l0eTEeMBwGA1UEChMVVGhlIFVTRVJUUlVTVCBOZXR3b3JrMS4wLAYDVQQDEyVVU0VSVHJ1c3QgUlNBIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MB4XDTIzMDgwMjAwMDAwMFoXDTMzMDgwMTIzNTk1OVowVjELMAkGA1UEBhMCRlIxDjAMBgNVBAoTBUdhbmRpMTcwNQYDVQQDEy5HYW5kaSBSU0EgRG9tYWluIFZhbGlkYXRpb24gU2VjdXJlIFNlcnZlciBDQSAzMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAwrwuXKdKIiD9eu4fsNjLN0mS8HsTdDFyPPB5F5uUd6SJGutc7sqDd3T/p+gnVoAZERvzAz8+OEux1GN1UJ+Gd8s5btXJCbDV5DpvzJOhfztk5JmFKz2XBka+MvDAgiyiZKs3G6yoMk8lEOu6NOsK3X8D1w0E6/C/ROa6Ml0ROnKm7vHGNVTfXTP5IqiNh2JXmp4vD23gemf8nfuI2FngayMNsjm6SwpVYWfT3S8jn5el52FKzwo+uKVZAjNH1ulgWoyO8p+PCsP+CvaEGDId3leSUVhPBBPRsxL42jjqo9aOKREgmrGco39JGf4OImxM8vKxQ9AjDrRTRETB9V9jbRf3v3Tojt3vBBwa3xQelVp9xUWQxo/5dV73g/c7WWAvZ628XUw6k6vn6bY7qWuhehUO02plRLd5zP8nBORCbPmFCI97lZAnDYLprB4e9IgCPJp+0zQDLr9o+eNKtR0a2Txb6nzGahIPi3a7QCH6+Yq4iwYVEQm+e6KBJZOm+YiLAgMBAAGjggFwMIIBbDAfBgNVHSMEGDAWgBRTeb9aqitKz1SA4dibwJ3ysgNmyzAdBgNVHQ4EFgQUgRGS3mYypbBbMz1lQ4X81AQt8a4wDgYDVR0PAQH/BAQDAgGGMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMCIGA1UdIAQbMBkwDQYLKwYBBAGyMQECAhowCAYGZ4EMAQIBMFAGA1UdHwRJMEcwRaBDoEGGP2h0dHA6Ly9jcmwudXNlcnRydXN0LmNvbS9VU0VSVHJ1c3RSU0FDZXJ0aWZpY2F0aW9uQXV0aG9yaXR5LmNybDBxBggrBgEFBQcBAQRlMGMwOgYIKwYBBQUHMAKGLmh0dHA6Ly9jcnQudXNlcnRydXN0LmNvbS9VU0VSVHJ1c3RSU0FBQUFDQS5jcnQwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnVzZXJ0cnVzdC5jb20wDQYJKoZIhvcNAQEMBQADggIBADvVncOMStREyA00ZSRUmrkmR3KzAlHVz06X1ydG9EpZz+JTQMWO809buLbDnr6t9z9jVnsDTQnWcMG4qiIkwhJVLxOVXUO+LFSBMskOe1SPBtHwHS42DeZ8QTgbRlW9p/Ey9wIo+MS2tryQ9eaDTkc2FBed/82VjrdsQoeoTyuDdp4tqarixjM/iJMgyEAMCpTkx4EqXJ/z7qgXusacsxMzt6NLv7FYcaKGbwjKqzrRvEk/+ZYnZc5mxnautf0uwRCcOe0kCOh1fd+g6Tyd+cSj6oGcJY/f/Db0sxELpzGqjRkbXan+eMojQfsgIe1n7SVyI5Yxz2RnQQL5ZT5K1mBcucqsTqkk3C7L3hF4hkwC/Otm+badymHQcnbE1Pmz6ymqj2vtwT0mEQzetQdbvv3jc3ey4YcxirAM1ihxtXeINsEP1ndUV/0v+qqmk9iCoIjZQce8vAdziZqBYxO3NiZwTRAtqseiZWLJqQ077fy3ebdjmw6y5U+DhDW2kxF/e+FJnu53DuY5/bE+oUneY770A7BfCuH+6uhEOaMNsn21AHymLr1xlRPQYR0DMgHmsGTqdINcQfot1mlIXr05HQUK0b84CPgEU0zvVQL+j9dc/4rh2sR6rl//tjG01Q+zQKStnR2NlNNrElDUC9IDmvL9JcF20cvOlE4R0lfTXa1k\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "B9F2164323638DCE0B92218B43C41C1B2B2696389329DB19F5CF7AD49B5CB372"
+              "finding"      : "F0104FF17274608F1A18A1E1EABF8E68A51F500A87E2EFA22ECB622763FEF4CF"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2014-09-12 00:00"
+              "finding"      : "2023-08-02 00:00"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#1>",
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-09-11 23:59"
+              "finding"      : "2033-08-01 23:59"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
@@ -507,7 +507,7 @@
               "ip"           : "francestrategie.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Gandi Standard SSL CA 2 <-- USERTrust RSA Certification Authority"
+              "finding"      : "Gandi RSA Domain Validation Secure Server CA 3 <-- USERTrust RSA Certification Authority"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
