@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ofpra.gouv.fr</pre>
-<p class="lead">Tue Mar 12 10:30:38 2024 – Tue Mar 12 10:31:09 2024<br>1 hosts scanned.
+<p class="lead">Wed Jul 17 15:50:05 2024 – Wed Jul 17 15:50:46 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,7 +76,7 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>46.18.192.68</td>
+<td>46.18.193.152</td>
 <td>ofpra.gouv.fr</td>
 <td>4</td>
 <td>0</td>
@@ -91,12 +91,12 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#46-18-192-68"><h3 class="panel-title">46.18.192.68 - ofpra.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="46-18-192-68">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#46-18-193-152"><h3 class="panel-title">46.18.193.152 - ofpra.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="46-18-193-152">
 <h4>Hostnames</h4>
 <ul>
 <li>ofpra.gouv.fr (user)</li>
-<li>ds-192-68.dri-services.net (PTR)</li>
+<li>ds-193-152.dri-services.net (PTR)</li>
 </ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
@@ -124,23 +124,72 @@
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http-proxy</td>
-<td title="Product">HAProxy http proxy</td>
-<td title="Version">1.3.1 or later</td>
+<td title="Service">http</td>
+<td title="Product"></td>
+<td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:haproxy:haproxy">cpe:/a:haproxy:haproxy</a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, RPCCheck, X11Probe: 
+    HTTP/1.1 400 Bad request
+    content-length: 90
+    cache-control: no-cache
+    content-type: text/html
+    connection: close
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
+    &lt;/body&gt;&lt;/html&gt;
+  FourOhFourRequest: 
+    HTTP/1.1 308 Permanent Redirect
+    content-length: 0
+    location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
+    connection: close
+  GetRequest, HTTPOptions, RTSPRequest: 
+    HTTP/1.1 308 Permanent Redirect
+    content-length: 0
+    location: https:///
+    connection: close</pre>
+</td></tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http-proxy</td>
-<td title="Product">HAProxy http proxy</td>
-<td title="Version">1.3.1 or later</td>
+<td title="Service">https</td>
+<td title="Product">Apache</td>
+<td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:haproxy:haproxy">cpe:/a:haproxy:haproxy</a><h5>http-server-header</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest, GetRequest, HTTPOptions: 
+    HTTP/1.1 503 Not Found
+    cache-control: no-cache
+    content-type: text/html
+    connection: close
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="fr"&gt;
+    &lt;head&gt;
+    &lt;meta http-equiv="Refresh" content="0; url=https://www.dri.fr/hosted-by" /&gt;
+    &lt;title&gt;Redirection&lt;/title&gt;
+    &lt;meta name="robots" content="noindex" /&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;p&gt;&lt;a href="https://www.dri.fr/hosted-by"&gt;Redirection&lt;/a&gt;&lt;/p&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+  tor-versions: 
+    HTTP/1.1 400 Bad request
+    content-length: 90
+    cache-control: no-cache
+    content-type: text/html
+    connection: close
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
+    &lt;/body&gt;&lt;/html&gt;</pre>
+<h5>http-server-header</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 </td></tr>
 <tr class="success">
@@ -171,7 +220,7 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>46.18.192.68 - ofpra.gouv.fr</td>
+<td>46.18.193.152 - ofpra.gouv.fr</td>
 <td>25</td>
 <td>tcp</td>
 <td>smtp</td>
@@ -181,27 +230,27 @@
 <td></td>
 </tr>
 <tr>
-<td>46.18.192.68 - ofpra.gouv.fr</td>
+<td>46.18.193.152 - ofpra.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
-<td>http-proxy</td>
-<td>HAProxy http proxy</td>
-<td>1.3.1 or later</td>
-<td>cpe:/a:haproxy:haproxy</td>
+<td>http</td>
+<td></td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr>
-<td>46.18.192.68 - ofpra.gouv.fr</td>
+<td>46.18.193.152 - ofpra.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>http-proxy</td>
-<td>HAProxy http proxy</td>
-<td>1.3.1 or later</td>
-<td>cpe:/a:haproxy:haproxy</td>
+<td>https</td>
+<td>Apache</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr>
-<td>46.18.192.68 - ofpra.gouv.fr</td>
+<td>46.18.193.152 - ofpra.gouv.fr</td>
 <td>587</td>
 <td>tcp</td>
 <td>smtp</td>
