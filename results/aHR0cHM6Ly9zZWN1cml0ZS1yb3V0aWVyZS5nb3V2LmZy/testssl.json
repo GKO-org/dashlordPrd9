@@ -262,7 +262,7 @@
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2E68BB23DB44303ED518A5A9F612C548"
+              "finding"      : "7C2F46545E89DC2F0875DD72FFE03A0A"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "E9864F44F30F9935DBEEEC8D69ECB71447A0FDA4"
+              "finding"      : "7BFF136C7AC6FD6FE7B23E9A4624D26B090300C2"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "36D330502E247DD3C7B6D424110438B8C00A8D94A4567CD149A58A30D2D5C034"
+              "finding"      : "76D1C3E0805B7318D44763A5ABC1978B46E7EDE32C12BE59E7183E13FCEDE7A8"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "reseau.securite-routiere.gouv.fr securite-routiere.gouv.fr www.securite-routiere.gouv.fr"
+              "finding"      : "securite-routiere.gouv.fr reseau.securite-routiere.gouv.fr www.securite-routiere.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -339,21 +339,21 @@
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "274 >= 60 days"
+              "finding"      : "146 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-12-12 23:00"
+              "finding"      : "2024-03-22 23:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-12-11 22:59"
+              "finding"      : "2024-12-10 22:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -374,14 +374,14 @@
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
+              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
+              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -500,14 +500,14 @@
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710239139"
+              "finding"      : "1721231113"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds"
+              "finding"      : "1 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -557,7 +557,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-cache: Miss"
+              "finding"      : "x-cache: Hit"
           }
 ,         {
               "id"           : "heartbleed",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=36D330502E247DD3C7B6D424110438B8C00A8D94A4567CD149A58A30D2D5C034"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=76D1C3E0805B7318D44763A5ABC1978B46E7EDE32C12BE59E7183E13FCEDE7A8"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1063,6 +1063,6 @@
               "ip"           : "securite-routiere.gouv.fr/77.159.252.145",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "52"
+              "finding"      : "91"
           }
 ]
