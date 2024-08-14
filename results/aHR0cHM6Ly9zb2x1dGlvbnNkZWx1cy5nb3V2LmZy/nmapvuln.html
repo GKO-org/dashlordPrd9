@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln solutionsdelus.gouv.fr</pre>
-<p class="lead">Wed Jul 17 16:17:00 2024 – Wed Jul 17 16:18:02 2024<br>1 hosts scanned.
+<p class="lead">Wed Aug 14 14:10:43 2024 – Wed Aug 14 14:11:56 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -124,31 +124,29 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">envoy</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  DNSStatusRequestTCP: 
+  DNSStatusRequestTCP, DNSVersionBindReqTCP: 
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:21 GMT
-    server: envoy
-    connection: close
-    Request
-  DNSVersionBindReqTCP: 
-    HTTP/1.1 400 Bad Request
-    content-length: 11
-    content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:20 GMT
+    date: Wed, 14 Aug 2024 14:11:05 GMT
     server: envoy
     connection: close
     Request
   FourOhFourRequest: 
     HTTP/1.1 426 Upgrade Required
-    date: Wed, 17 Jul 2024 16:17:12 GMT
+    date: Wed, 14 Aug 2024 14:10:57 GMT
     server: envoy
     connection: close
     content-length: 0
-  GetRequest, HTTPOptions: 
+  GetRequest: 
     HTTP/1.1 426 Upgrade Required
-    date: Wed, 17 Jul 2024 16:17:08 GMT
+    date: Wed, 14 Aug 2024 14:10:52 GMT
+    server: envoy
+    connection: close
+    content-length: 0
+  HTTPOptions: 
+    HTTP/1.1 426 Upgrade Required
+    date: Wed, 14 Aug 2024 14:10:53 GMT
     server: envoy
     connection: close
     content-length: 0
@@ -156,7 +154,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:22 GMT
+    date: Wed, 14 Aug 2024 14:11:08 GMT
     server: envoy
     connection: close
     Request
@@ -164,7 +162,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:18 GMT
+    date: Wed, 14 Aug 2024 14:11:04 GMT
     server: envoy
     connection: close
     Request
@@ -172,7 +170,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:10 GMT
+    date: Wed, 14 Aug 2024 14:10:53 GMT
     server: envoy
     connection: close
     Request
@@ -180,7 +178,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:23 GMT
+    date: Wed, 14 Aug 2024 14:11:09 GMT
     server: envoy
     connection: close
     Request
@@ -188,7 +186,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:11 GMT
+    date: Wed, 14 Aug 2024 14:10:56 GMT
     server: envoy
     connection: close
     Request</pre>
@@ -211,7 +209,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:29 GMT
+    date: Wed, 14 Aug 2024 14:11:15 GMT
     server: envoy
     connection: close
     Request
@@ -219,25 +217,25 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:27 GMT
+    date: Wed, 14 Aug 2024 14:11:14 GMT
     server: envoy
     connection: close
     Request
   FourOhFourRequest: 
     HTTP/1.1 426 Upgrade Required
-    date: Wed, 17 Jul 2024 16:17:16 GMT
+    date: Wed, 14 Aug 2024 14:11:02 GMT
     server: envoy
     connection: close
     content-length: 0
   GetRequest: 
     HTTP/1.1 426 Upgrade Required
-    date: Wed, 17 Jul 2024 16:17:14 GMT
+    date: Wed, 14 Aug 2024 14:10:57 GMT
     server: envoy
     connection: close
     content-length: 0
   HTTPOptions: 
     HTTP/1.1 426 Upgrade Required
-    date: Wed, 17 Jul 2024 16:17:15 GMT
+    date: Wed, 14 Aug 2024 14:11:00 GMT
     server: envoy
     connection: close
     content-length: 0
@@ -245,7 +243,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:30 GMT
+    date: Wed, 14 Aug 2024 14:11:17 GMT
     server: envoy
     connection: close
     Request
@@ -253,7 +251,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:26 GMT
+    date: Wed, 14 Aug 2024 14:11:12 GMT
     server: envoy
     connection: close
     Request
@@ -261,7 +259,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:25 GMT
+    date: Wed, 14 Aug 2024 14:11:10 GMT
     server: envoy
     connection: close
     Request
@@ -269,7 +267,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:31 GMT
+    date: Wed, 14 Aug 2024 14:11:19 GMT
     server: envoy
     connection: close
     Request
@@ -277,7 +275,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Wed, 17 Jul 2024 16:17:18 GMT
+    date: Wed, 14 Aug 2024 14:11:04 GMT
     server: envoy
     connection: close
     Request</pre>
