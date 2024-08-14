@@ -297,7 +297,7 @@
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "079D0FEEC9AA7BF0B71E588B7B72C4FF"
+              "finding"      : "043992D3DDADF30E11226FDCA4DBAF8F"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -311,21 +311,21 @@
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "7DB4139E47E5E8B508A31F834D8FF3608DC6E36D"
+              "finding"      : "4209B2E08DA55758872EE0C90DE6EC04F5D41F42"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "BA3024DE6B9D1DC65C843D226FEF61083FBA6488D243129FC02C9D973BC97753"
+              "finding"      : "F0634ACEE21FA19CA167003E35EC51BC18E56F0DE8CFCA2DC794F2410126E59A"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -373,22 +373,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (39)"
+              "severity"     : "OK",
+              "finding"      : "383 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-07-26 00:00"
+              "finding"      : "2024-08-01 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-08-25 23:59"
+              "severity"     : "OK",
+              "finding"      : "2025-09-01 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -451,7 +451,7 @@
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3"
+              "finding"      : "2"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
@@ -510,48 +510,6 @@
               "finding"      : "GeoTrust EV RSA CA G2 <-- DigiCert Global Root G2"
           }
 ,         {
-              "id"           : "intermediate_cert <#2>",
-              "ip"           : "ofpra.gouv.fr/46.18.193.152",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDjjCCAnagAwIBAgIQAzrx5qcRqaC7KGSxHQn65TANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0xMzA4MDExMjAwMDBaFw0zODAxMTUxMjAwMDBaMGExCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IEcyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuzfNNNx7a8myaJCtSnX/RrohCgiN9RlUyfuI2/Ou8jqJkTx65qsGGmvPrC3oXgkkRLpimn7Wo6h+4FR1IAWsULecYxpsMNzaHxmx1x7e/dfgy5SDN67sH0NO3Xss0r0upS/kqbitOtSZpLYl6ZtrAGCSYP9PIUkY92eQq2EGnI/yuum06ZIya7XzV+hdG82MHauVBJVJ8zUtluNJbd134/tJS7SsVQepj5WztCO7TG1F8PapspUwtP1MVYwnSlcUfIKdzXOS0xZKBgyMUNGPHgm+F6HmIcr9g+UQvIOlCsRnKPZzFBQ9RnbDhxSJITRNrw9FDKZJobq7nMWxM4MphQIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBhjAdBgNVHQ4EFgQUTiJUIBiV5uNu5g/6+rkS7QYXjzkwDQYJKoZIhvcNAQELBQADggEBAGBnKJRvDkhj6zHd6mcY1Yl9PMWLSn/pvtsrF9+wX3N3KjITOYFnQoQj8kVnNeyIv/iPsGEMNKSuIEyExtv4NeF22d+mQrvHRAiGfzZ0JFrabA0UWTW98kndth/Jsw1HKj2ZL7tcu7XUIOGZX1NGFdtom/DzMNU+MeKNhJ7jitralj41E6Vf8PlwUHBHQRFXGU7Aj64GxJUTFy8bJZ918rGOmaFvE7FBcf6IKshPECBV1/MUReXgRPTqh5Uykw7+U0b6LJ3/iyK5S9kJRaTepLiaWN0bfVKfjllDiIGknibVb63dDcY3fe0Dkhvld1927jyNxF1WW6LZZm6zNTflMrY=\n-----END CERTIFICATE-----"
-          }
-,         {
-              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
-              "ip"           : "ofpra.gouv.fr/46.18.193.152",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "CB3CCBB76031E5E0138F8DD39A23F9DE47FFC35E43C1144CEA27D46A5AB1CB5F"
-          }
-,         {
-              "id"           : "intermediate_cert_notBefore <#2>",
-              "ip"           : "ofpra.gouv.fr/46.18.193.152",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2013-08-01 12:00"
-          }
-,         {
-              "id"           : "intermediate_cert_notAfter <#2>",
-              "ip"           : "ofpra.gouv.fr/46.18.193.152",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2038-01-15 12:00"
-          }
-,         {
-              "id"           : "intermediate_cert_expiration <#2>",
-              "ip"           : "ofpra.gouv.fr/46.18.193.152",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "ok > 40 days"
-          }
-,         {
-              "id"           : "intermediate_cert_chain <#2>",
-              "ip"           : "ofpra.gouv.fr/46.18.193.152",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "DigiCert Global Root G2 <-- DigiCert Global Root G2"
-          }
-,         {
               "id"           : "intermediate_cert_badOCSP",
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
@@ -570,14 +528,14 @@
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-166 seconds from localtime"
+              "finding"      : "-1604 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721231204"
+              "finding"      : "1723641329"
           }
 ,         {
               "id"           : "HSTS",
@@ -764,7 +722,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=BA3024DE6B9D1DC65C843D226FEF61083FBA6488D243129FC02C9D973BC97753"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F0634ACEE21FA19CA167003E35EC51BC18E56F0DE8CFCA2DC794F2410126E59A"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1147,6 +1105,6 @@
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "68"
+              "finding"      : "62"
           }
 ]
