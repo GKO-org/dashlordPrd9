@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Aug 14 13:41:45 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln seine-et-marne.gouv.fr
+# Nmap 7.92 scan initiated Sat Sep 14 13:33:29 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln seine-et-marne.gouv.fr
 Host: 77.159.252.140 (140.252.159.77.rev.sfr.net)	Status: Up
 Host: 77.159.252.140 (140.252.159.77.rev.sfr.net)	Ports: 80/open/tcp//http//Apache/, 443/open/tcp//ssl|https//Apache/	Ignored State: filtered (998)
-# Nmap done at Wed Aug 14 13:42:22 2024 -- 1 IP address (1 host up) scanned in 37.23 seconds
+# Nmap done at Sat Sep 14 13:34:07 2024 -- 1 IP address (1 host up) scanned in 38.05 seconds
