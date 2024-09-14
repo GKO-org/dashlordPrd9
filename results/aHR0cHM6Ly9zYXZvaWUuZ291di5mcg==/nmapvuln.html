@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln savoie.gouv.fr</pre>
-<p class="lead">Wed Aug 14 13:38:55 2024 – Wed Aug 14 13:39:36 2024<br>1 hosts scanned.
+<p class="lead">Sat Sep 14 13:32:38 2024 – Sat Sep 14 13:33:29 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -126,7 +126,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Wed, 14 Aug 2024 13:39:11 GMT
+    date: Sat, 14 Sep 2024 13:32:57 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -136,37 +136,28 @@
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
-  GetRequest: 
+  GetRequest, HTTPOptions: 
     HTTP/1.1 403 Forbidden
-    date: Wed, 14 Aug 2024 13:39:10 GMT
+    date: Sat, 14 Sep 2024 13:32:56 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
     age: 0
     x-cache: Miss
-    content-length: 94
-    keep-alive: timeout=5, max=100
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
     &lt;/body&gt;&lt;/html&gt;
-  HTTPOptions: 
-    HTTP/1.1 403 Forbidden
-    date: Wed, 14 Aug 2024 13:39:11 GMT
-    server: Apache
+  RPCCheck, X11Probe: 
+    HTTP/1.0 400 Bad request
     cache-control: no-cache
     content-type: text/html
-    age: 0
-    x-cache: Miss
-    content-length: 94
-    keep-alive: timeout=5, max=100
-    connection: close
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
-    Request forbidden by administrative rules.
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
+    Your browser sent an invalid request.
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Wed, 14 Aug 2024 13:39:11 GMT
+    date: Sat, 14 Sep 2024 13:32:57 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
@@ -178,13 +169,6 @@
     &lt;h1&gt;Bad Request&lt;/h1&gt;
     &lt;p&gt;Your browser sent a request that this server could not understand.&lt;br /&gt;
     &lt;/p&gt;
-    &lt;/body&gt;&lt;/html&gt;
-  X11Probe: 
-    HTTP/1.0 400 Bad request
-    cache-control: no-cache
-    content-type: text/html
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;400 Bad request&lt;/h1&gt;
-    Your browser sent an invalid request.
     &lt;/body&gt;&lt;/html&gt;</pre>
 </td></tr>
 <tr class="success">
@@ -203,7 +187,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.1 403 Forbidden
-    date: Wed, 14 Aug 2024 13:39:18 GMT
+    date: Sat, 14 Sep 2024 13:33:04 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -215,7 +199,19 @@
     &lt;/body&gt;&lt;/html&gt;
   GetRequest: 
     HTTP/1.1 403 Forbidden
-    date: Wed, 14 Aug 2024 13:39:17 GMT
+    date: Sat, 14 Sep 2024 13:33:02 GMT
+    server: Apache
+    cache-control: no-cache
+    content-type: text/html
+    age: 0
+    x-cache: Miss
+    connection: close
+    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
+    Request forbidden by administrative rules.
+    &lt;/body&gt;&lt;/html&gt;
+  HTTPOptions: 
+    HTTP/1.1 403 Forbidden
+    date: Sat, 14 Sep 2024 13:33:03 GMT
     server: Apache
     cache-control: no-cache
     content-type: text/html
@@ -223,18 +219,6 @@
     x-cache: Miss
     content-length: 94
     keep-alive: timeout=5, max=100
-    connection: close
-    &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
-    Request forbidden by administrative rules.
-    &lt;/body&gt;&lt;/html&gt;
-  HTTPOptions: 
-    HTTP/1.1 403 Forbidden
-    date: Wed, 14 Aug 2024 13:39:17 GMT
-    server: Apache
-    cache-control: no-cache
-    content-type: text/html
-    age: 0
-    x-cache: Miss
     connection: close
     &lt;html&gt;&lt;body&gt;&lt;h1&gt;403 Forbidden&lt;/h1&gt;
     Request forbidden by administrative rules.
@@ -248,7 +232,7 @@
     &lt;/body&gt;&lt;/html&gt;
   RTSPRequest: 
     HTTP/1.1 400 Bad Request
-    date: Wed, 14 Aug 2024 13:39:24 GMT
+    date: Sat, 14 Sep 2024 13:33:10 GMT
     server: Apache
     content-length: 226
     content-type: text/html; charset=iso-8859-1
