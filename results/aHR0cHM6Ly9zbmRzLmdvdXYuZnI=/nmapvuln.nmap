@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sat Sep 14 13:55:41 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln snds.gouv.fr
+# Nmap 7.92 scan initiated Mon Oct 14 14:16:15 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln snds.gouv.fr
 Nmap scan report for snds.gouv.fr (93.174.145.177)
-Host is up (0.094s latency).
+Host is up (0.11s latency).
 Not shown: 998 filtered tcp ports (no-response)
 PORT    STATE SERVICE   VERSION
 80/tcp  open  http
@@ -35,7 +35,7 @@ PORT    STATE SERVICE   VERSION
 |     Connection: close
 |     Content-Length: 0
 |     Content-Type: text/html; charset=utf-8
-|     Location: http://www.snds.gouv.fr/SNDS/Erreur-404?support_id=8402854343245743091
+|     Location: http://www.snds.gouv.fr/SNDS/Erreur-404?support_id=8402854346346947351
 |   GetRequest, HTTPOptions, RTSPRequest: 
 |     HTTP/1.0 302 Moved Temporarily
 |     Location: https:///SNDS/Accueil
@@ -49,7 +49,7 @@ PORT    STATE SERVICE   VERSION
 |     Connection: close
 |     Content-Length: 0
 |     Content-Type: text/html; charset=utf-8
-|     Location: http://www.snds.gouv.fr/SNDS/Erreur-404?support_id=8402854343256044170
+|     Location: http://www.snds.gouv.fr/SNDS/Erreur-404?support_id=8402854346330320965
 |   TerminalServerCookie: 
 |     HTTP/1.1 302 Found
 |     X-Frame-Options: SAMEORIGIN
@@ -58,47 +58,47 @@ PORT    STATE SERVICE   VERSION
 |     Connection: close
 |     Content-Length: 0
 |     Content-Type: text/html; charset=utf-8
-|_    Location: http://www.snds.gouv.fr/SNDS/Erreur-404?support_id=8402854343239299622
+|_    Location: http://www.snds.gouv.fr/SNDS/Erreur-404?support_id=8402854346359683320
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=9/14%Time=66E595EC%P=x86_64-alpine-linux-musl%r
-SF:(GetRequest,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\x
-SF:20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%r
-SF:(HTTPOptions,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\
+SF-Port80-TCP:V=7.92%I=7%D=10/14%Time=670D27BE%P=x86_64-alpine-linux-musl%
+SF:r(GetRequest,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\
 SF:x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%
-SF:r(RTSPRequest,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:
+SF:r(HTTPOptions,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:
 SF:\x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")
-SF:%r(FourOhFourRequest,80,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLo
-SF:cation:\x20https:///nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nConnection:
-SF:\x20close\r\nContent-Length:\x200\r\n\r\n")%r(TerminalServerCookie,69,"
-SF:HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\x20https://mstsha
-SF:sh=nmap\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%r(SIP
-SF:Options,62,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\x20ht
-SF:tps://sip:nm\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n");
+SF:%r(RTSPRequest,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation
+SF::\x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n"
+SF:)%r(FourOhFourRequest,80,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nL
+SF:ocation:\x20https:///nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nConnection
+SF::\x20close\r\nContent-Length:\x200\r\n\r\n")%r(TerminalServerCookie,69,
+SF:"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\x20https://mstsh
+SF:ash=nmap\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%r(SI
+SF:POptions,62,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\x20h
+SF:ttps://sip:nm\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=9/14%Time=66E595F2%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,69,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLoca
-SF:tion:\x20https:///SNDS/Accueil\r\nConnection:\x20close\r\nContent-Lengt
-SF:h:\x200\r\n\r\n")%r(HTTPOptions,69,"HTTP/1\.0\x20302\x20Moved\x20Tempor
-SF:arily\r\nLocation:\x20https:///SNDS/Accueil\r\nConnection:\x20close\r\n
-SF:Content-Length:\x200\r\n\r\n")%r(FourOhFourRequest,115,"HTTP/1\.1\x2030
-SF:2\x20Found\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;
-SF:\x20mode=block\r\nX-Content-Type-Options:\x20nosniff\r\nConnection:\x20
-SF:close\r\nContent-Length:\x200\r\nContent-Type:\x20text/html;\x20charset
-SF:=utf-8\r\nLocation:\x20http://www\.snds\.gouv\.fr/SNDS/Erreur-404\?supp
-SF:ort_id=8402854343245743091\r\n\r\n")%r(RTSPRequest,69,"HTTP/1\.0\x20302
-SF:\x20Moved\x20Temporarily\r\nLocation:\x20https:///SNDS/Accueil\r\nConne
-SF:ction:\x20close\r\nContent-Length:\x200\r\n\r\n")%r(TerminalServerCooki
-SF:e,115,"HTTP/1\.1\x20302\x20Found\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=10/14%Time=670D27C5%P=x86_64-alpine-linu
+SF:x-musl%r(GetRequest,69,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLoc
+SF:ation:\x20https:///SNDS/Accueil\r\nConnection:\x20close\r\nContent-Leng
+SF:th:\x200\r\n\r\n")%r(HTTPOptions,69,"HTTP/1\.0\x20302\x20Moved\x20Tempo
+SF:rarily\r\nLocation:\x20https:///SNDS/Accueil\r\nConnection:\x20close\r\
+SF:nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,115,"HTTP/1\.1\x203
+SF:02\x20Found\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201
+SF:;\x20mode=block\r\nX-Content-Type-Options:\x20nosniff\r\nConnection:\x2
+SF:0close\r\nContent-Length:\x200\r\nContent-Type:\x20text/html;\x20charse
+SF:t=utf-8\r\nLocation:\x20http://www\.snds\.gouv\.fr/SNDS/Erreur-404\?sup
+SF:port_id=8402854346346947351\r\n\r\n")%r(RTSPRequest,69,"HTTP/1\.0\x2030
+SF:2\x20Moved\x20Temporarily\r\nLocation:\x20https:///SNDS/Accueil\r\nConn
+SF:ection:\x20close\r\nContent-Length:\x200\r\n\r\n")%r(TerminalServerCook
+SF:ie,115,"HTTP/1\.1\x20302\x20Found\r\nX-Frame-Options:\x20SAMEORIGIN\r\n
+SF:X-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nos
+SF:niff\r\nConnection:\x20close\r\nContent-Length:\x200\r\nContent-Type:\x
+SF:20text/html;\x20charset=utf-8\r\nLocation:\x20http://www\.snds\.gouv\.f
+SF:r/SNDS/Erreur-404\?support_id=8402854346359683320\r\n\r\n")%r(SIPOption
+SF:s,115,"HTTP/1\.1\x20302\x20Found\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX
 SF:-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nosn
 SF:iff\r\nConnection:\x20close\r\nContent-Length:\x200\r\nContent-Type:\x2
 SF:0text/html;\x20charset=utf-8\r\nLocation:\x20http://www\.snds\.gouv\.fr
-SF:/SNDS/Erreur-404\?support_id=8402854343239299622\r\n\r\n")%r(SIPOptions
-SF:,115,"HTTP/1\.1\x20302\x20Found\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX-
-SF:XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nosni
-SF:ff\r\nConnection:\x20close\r\nContent-Length:\x200\r\nContent-Type:\x20
-SF:text/html;\x20charset=utf-8\r\nLocation:\x20http://www\.snds\.gouv\.fr/
-SF:SNDS/Erreur-404\?support_id=8402854343256044170\r\n\r\n");
+SF:/SNDS/Erreur-404\?support_id=8402854346330320965\r\n\r\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sat Sep 14 13:58:27 2024 -- 1 IP address (1 host up) scanned in 165.77 seconds
+# Nmap done at Mon Oct 14 14:19:03 2024 -- 1 IP address (1 host up) scanned in 167.58 seconds
