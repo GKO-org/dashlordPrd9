@@ -191,15 +191,15 @@
               "id"           : "sessionresumption_ticket",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "supported"
+              "severity"     : "WARN",
+              "finding"      : "check failed because of connect problem"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "supported"
+              "severity"     : "WARN",
+              "finding"      : "check failed because of connect problem"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -423,7 +423,7 @@
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726319658"
+              "finding"      : "1728912567"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1035,6 +1035,6 @@
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "113"
+              "finding"      : "107"
           }
 ]
