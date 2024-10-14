@@ -1,96 +1,85 @@
-# Nmap 7.92 scan initiated Sat Sep 14 13:26:29 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sante.gouv.fr
+# Nmap 7.92 scan initiated Mon Oct 14 13:40:47 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sante.gouv.fr
 Nmap scan report for sante.gouv.fr (185.194.82.27)
-Host is up (0.082s latency).
+Host is up (0.081s latency).
 Not shown: 997 filtered tcp ports (no-response)
-PORT    STATE  SERVICE   VERSION
-80/tcp  open   http      BigIP
+PORT    STATE  SERVICE    VERSION
+80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
 |_http-server-header: BigIP
-| fingerprint-strings: 
-|   GetRequest: 
-|     HTTP/1.0 302 Moved Temporarily
-|     Location: https:///
-|     Server: BigIP
-|     Connection: close
-|_    Content-Length: 0
 113/tcp closed ident
 443/tcp open   ssl/https
+|_http-trane-info: Problem with XML parsing of /evox/about
 | fingerprint-strings: 
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     Date: Sat, 14 Sep 2024 13:26:48 GMT
-|     Link: <http://sante.gouv.fr:443/local/cache-css/6cc13b67cc09b67aaa20923d2eac044c.css?1724920098>;rel="preload";as="style"
+|     Date: Mon, 14 Oct 2024 13:41:06 GMT
 |     X-Spip-Cache: 21600
 |     X-Frame-Options: SAMEORIGIN
-|     Last-Modified: Sat, 14 Sep 2024 13:26:48 GMT
+|     Last-Modified: Mon, 14 Oct 2024 13:41:06 GMT
 |     Vary: Accept-Encoding
 |     X-Content-Type-Options: nosniff
 |     Connection: close
 |     Content-Type: text/html; charset=utf-8
-|     Set-Cookie: BIGipServerpool-dicom-portail-dares.cegedim.cloud-HTTP=!ZJKtFhP5dZa27KZWDPlD0yXzT0UGht4zUYimQhUZOvQvQfyTy7B3sJVRCaCVywOrYXv44HAhodjFdGZIXL2r7XIo0gvn; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-dicom-portail-dares.cegedim.cloud-HTTP=!P07gwKS2cfQBSbVWDPlD0yXzT0UGhjB21tDRC8k9MhoZMF5gbexND+g/9ZfOmKYJES3R+0DyRiUrcTdGE99cR/MZ+k28; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000
-|     Set-Cookie: TS01f99fc7=01352d3811df11648411f6af217c53822f515aa6649cf2a4766ff474875c7c56530d1fa4f6c14cc315aad8ccdcdf98ab365a246a86; Path=/
+|     Set-Cookie: TS01f99fc7=01352d381144ce8d9c5210be080e97fabae4740c6e86aa95054b0e1508e37230536a65b4417a8f58e3ae98a0eebcc739dadcda2574; Path=/
 |     <!DOCTYPE HTML>
 |     <html class="page_sommaire ltr fr no-js" lang="fr" dir="ltr">
 |     <head>
-|     <script type='text/javascript'>/*<![CDATA[*/(funct
+|     <script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/bno-jsb/,'js')})(document.documentElement);/*]]>*/</script>
+|     <meta http-equiv
 |   HTTPOptions: 
 |     HTTP/1.1 200 OK
-|     Date: Sat, 14 Sep 2024 13:26:49 GMT
-|     Link: <http://sante.gouv.fr:443/local/cache-css/6cc13b67cc09b67aaa20923d2eac044c.css?1724920098>;rel="preload";as="style"
+|     Date: Mon, 14 Oct 2024 13:41:07 GMT
 |     X-Spip-Cache: 21600
 |     X-Frame-Options: SAMEORIGIN
-|     Last-Modified: Sat, 14 Sep 2024 13:26:49 GMT
+|     Last-Modified: Mon, 14 Oct 2024 13:41:07 GMT
 |     Vary: Accept-Encoding
 |     X-Content-Type-Options: nosniff
 |     Connection: close
 |     Content-Type: text/html; charset=utf-8
-|     Set-Cookie: BIGipServerpool-dicom-portail-dares.cegedim.cloud-HTTP=!NFdGQpErH0kxK5pWDPlD0yXzT0UGhjT5MuXOTdmN9D34TiYhbpfoKHRCj9icz5Y3TSIdf6RMHC1ldhYQXQxk0A2t9DES; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-dicom-portail-dares.cegedim.cloud-HTTP=!b3TZWeWrXQQ+kq5WDPlD0yXzT0UGhmDMD1dso1Qzw9mCr7q4PWo5ky9s4mrk5GTHCCdMTtvUeiqdnBX46k6UV+vhWxFz; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000
-|     Set-Cookie: TS01f99fc7=01352d3811408bed4b4bb23e77c4e9afc5cdcae65f58105a5a6663b3eda0ecec8373c2af223999e8701008e41cec6d3d36475ea555; Path=/
+|     Set-Cookie: TS01f99fc7=01352d381165bd66a933c6d78205dc0be35ce696a0c69b1bba3d59fc5408cad09b84ecb9b0969fb5bc68dda7098c9cc34e3ac4b087; Path=/
 |     <!DOCTYPE HTML>
 |     <html class="page_sommaire ltr fr no-js" lang="fr" dir="ltr">
 |     <head>
-|_    <script type='text/javascript'>/*<![CDATA[*/(funct
-|_http-trane-info: Problem with XML parsing of /evox/about
-2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
-==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=9/14%Time=66E58F12%P=x86_64-alpine-linux-musl%r
-SF:(GetRequest,6C,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\x
-SF:20https:///\r\nServer:\x20BigIP\r\nConnection:\x20close\r\nContent-Leng
-SF:th:\x200\r\n\r\n");
-==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=9/14%Time=66E58F18%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,1804,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sat,\x2014\
-SF:x20Sep\x202024\x2013:26:48\x20GMT\r\nLink:\x20<http://sante\.gouv\.fr:4
-SF:43/local/cache-css/6cc13b67cc09b67aaa20923d2eac044c\.css\?1724920098>;r
-SF:el=\"preload\";as=\"style\"\r\nX-Spip-Cache:\x2021600\r\nX-Frame-Option
-SF:s:\x20SAMEORIGIN\r\nLast-Modified:\x20Sat,\x2014\x20Sep\x202024\x2013:2
-SF:6:48\x20GMT\r\nVary:\x20Accept-Encoding\r\nX-Content-Type-Options:\x20n
-SF:osniff\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charse
-SF:t=utf-8\r\nSet-Cookie:\x20BIGipServerpool-dicom-portail-dares\.cegedim\
-SF:.cloud-HTTP=!ZJKtFhP5dZa27KZWDPlD0yXzT0UGht4zUYimQhUZOvQvQfyTy7B3sJVRCa
-SF:CVywOrYXv44HAhodjFdGZIXL2r7XIo0gvn;\x20path=/;\x20Httponly;\x20Secure\r
-SF:\nStrict-Transport-Security:\x20max-age=31536000\r\nSet-Cookie:\x20TS01
-SF:f99fc7=01352d3811df11648411f6af217c53822f515aa6649cf2a4766ff474875c7c56
-SF:530d1fa4f6c14cc315aad8ccdcdf98ab365a246a86;\x20Path=/\r\n\r\n<!DOCTYPE\
-SF:x20HTML>\n<html\x20class=\"page_sommaire\x20ltr\x20fr\x20no-js\"\x20lan
-SF:g=\"fr\"\x20dir=\"ltr\">\n\t<head>\n\t\t<script\x20type='text/javascrip
-SF:t'>/\*<!\[CDATA\[\*/\(funct")%r(HTTPOptions,125C,"HTTP/1\.1\x20200\x20O
-SF:K\r\nDate:\x20Sat,\x2014\x20Sep\x202024\x2013:26:49\x20GMT\r\nLink:\x20
-SF:<http://sante\.gouv\.fr:443/local/cache-css/6cc13b67cc09b67aaa20923d2ea
-SF:c044c\.css\?1724920098>;rel=\"preload\";as=\"style\"\r\nX-Spip-Cache:\x
-SF:2021600\r\nX-Frame-Options:\x20SAMEORIGIN\r\nLast-Modified:\x20Sat,\x20
-SF:14\x20Sep\x202024\x2013:26:49\x20GMT\r\nVary:\x20Accept-Encoding\r\nX-C
-SF:ontent-Type-Options:\x20nosniff\r\nConnection:\x20close\r\nContent-Type
-SF::\x20text/html;\x20charset=utf-8\r\nSet-Cookie:\x20BIGipServerpool-dico
-SF:m-portail-dares\.cegedim\.cloud-HTTP=!NFdGQpErH0kxK5pWDPlD0yXzT0UGhjT5M
-SF:uXOTdmN9D34TiYhbpfoKHRCj9icz5Y3TSIdf6RMHC1ldhYQXQxk0A2t9DES;\x20path=/;
-SF:\x20Httponly;\x20Secure\r\nStrict-Transport-Security:\x20max-age=315360
-SF:00\r\nSet-Cookie:\x20TS01f99fc7=01352d3811408bed4b4bb23e77c4e9afc5cdcae
-SF:65f58105a5a6663b3eda0ecec8373c2af223999e8701008e41cec6d3d36475ea555;\x2
-SF:0Path=/\r\n\r\n<!DOCTYPE\x20HTML>\n<html\x20class=\"page_sommaire\x20lt
-SF:r\x20fr\x20no-js\"\x20lang=\"fr\"\x20dir=\"ltr\">\n\t<head>\n\t\t<scrip
-SF:t\x20type='text/javascript'>/\*<!\[CDATA\[\*/\(funct");
+|     <script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/bno-jsb/,'js')})(document.documentElement);/*]]>*/</script>
+|_    <meta http-equiv
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=10/14%Time=670D1F73%P=x86_64-alpine-linu
+SF:x-musl%r(GetRequest,427F,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Mon,\x2014
+SF:\x20Oct\x202024\x2013:41:06\x20GMT\r\nX-Spip-Cache:\x2021600\r\nX-Frame
+SF:-Options:\x20SAMEORIGIN\r\nLast-Modified:\x20Mon,\x2014\x20Oct\x202024\
+SF:x2013:41:06\x20GMT\r\nVary:\x20Accept-Encoding\r\nX-Content-Type-Option
+SF:s:\x20nosniff\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x2
+SF:0charset=utf-8\r\nSet-Cookie:\x20BIGipServerpool-dicom-portail-dares\.c
+SF:egedim\.cloud-HTTP=!P07gwKS2cfQBSbVWDPlD0yXzT0UGhjB21tDRC8k9MhoZMF5gbex
+SF:ND\+g/9ZfOmKYJES3R\+0DyRiUrcTdGE99cR/MZ\+k28;\x20path=/;\x20Httponly;\x
+SF:20Secure\r\nStrict-Transport-Security:\x20max-age=31536000\r\nSet-Cooki
+SF:e:\x20TS01f99fc7=01352d381144ce8d9c5210be080e97fabae4740c6e86aa95054b0e
+SF:1508e37230536a65b4417a8f58e3ae98a0eebcc739dadcda2574;\x20Path=/\r\n\r\n
+SF:<!DOCTYPE\x20HTML>\n<html\x20class=\"page_sommaire\x20ltr\x20fr\x20no-j
+SF:s\"\x20lang=\"fr\"\x20dir=\"ltr\">\n\t<head>\n\t\t<script\x20type='text
+SF:/javascript'>/\*<!\[CDATA\[\*/\(function\(H\){H\.className=H\.className
+SF:\.replace\(/\\bno-js\\b/,'js'\)}\)\(document\.documentElement\);/\*\]\]
+SF:>\*/</script>\n\t\t\n\t\t<meta\x20http-equiv")%r(HTTPOptions,427F,"HTTP
+SF:/1\.1\x20200\x20OK\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2013:41:07\x2
+SF:0GMT\r\nX-Spip-Cache:\x2021600\r\nX-Frame-Options:\x20SAMEORIGIN\r\nLas
+SF:t-Modified:\x20Mon,\x2014\x20Oct\x202024\x2013:41:07\x20GMT\r\nVary:\x2
+SF:0Accept-Encoding\r\nX-Content-Type-Options:\x20nosniff\r\nConnection:\x
+SF:20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nSet-Cookie:\
+SF:x20BIGipServerpool-dicom-portail-dares\.cegedim\.cloud-HTTP=!b3TZWeWrXQ
+SF:Q\+kq5WDPlD0yXzT0UGhmDMD1dso1Qzw9mCr7q4PWo5ky9s4mrk5GTHCCdMTtvUeiqdnBX4
+SF:6k6UV\+vhWxFz;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-Se
+SF:curity:\x20max-age=31536000\r\nSet-Cookie:\x20TS01f99fc7=01352d381165bd
+SF:66a933c6d78205dc0be35ce696a0c69b1bba3d59fc5408cad09b84ecb9b0969fb5bc68d
+SF:da7098c9cc34e3ac4b087;\x20Path=/\r\n\r\n<!DOCTYPE\x20HTML>\n<html\x20cl
+SF:ass=\"page_sommaire\x20ltr\x20fr\x20no-js\"\x20lang=\"fr\"\x20dir=\"ltr
+SF:\">\n\t<head>\n\t\t<script\x20type='text/javascript'>/\*<!\[CDATA\[\*/\
+SF:(function\(H\){H\.className=H\.className\.replace\(/\\bno-js\\b/,'js'\)
+SF:}\)\(document\.documentElement\);/\*\]\]>\*/</script>\n\t\t\n\t\t<meta\
+SF:x20http-equiv");
+Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sat Sep 14 13:29:12 2024 -- 1 IP address (1 host up) scanned in 163.69 seconds
+# Nmap done at Mon Oct 14 13:43:17 2024 -- 1 IP address (1 host up) scanned in 149.65 seconds
