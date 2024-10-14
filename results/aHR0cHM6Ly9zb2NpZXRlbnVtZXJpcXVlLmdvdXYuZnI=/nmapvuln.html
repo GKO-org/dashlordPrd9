@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln societenumerique.gouv.fr</pre>
-<p class="lead">Sat Sep 14 13:55:54 2024 – Sat Sep 14 13:56:15 2024<br>1 hosts scanned.
+<p class="lead">Mon Oct 14 14:17:07 2024 – Mon Oct 14 14:17:32 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,9 +76,9 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>146.59.226.142</td>
+<td>217.70.184.55</td>
 <td>societenumerique.gouv.fr</td>
-<td>3</td>
+<td>2</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -91,12 +91,12 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#146-59-226-142"><h3 class="panel-title">146.59.226.142 - societenumerique.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="146-59-226-142">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#217-70-184-55"><h3 class="panel-title">217.70.184.55 - societenumerique.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="217-70-184-55">
 <h4>Hostnames</h4>
 <ul>
 <li>societenumerique.gouv.fr (user)</li>
-<li>vps-0a0f0915.vps.ovh.net (PTR)</li>
+<li>webredir.gandi.net (PTR)</li>
 </ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
@@ -111,41 +111,25 @@
 </tr></thead>
 <tbody>
 <tr class="success">
-<td title="Port">25</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">smtp</td>
-<td title="Product">Postfix smtpd</td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:postfix:postfix">cpe:/a:postfix:postfix</a></td></tr>
-<tr class="success">
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">nginx</td>
-<td title="Version">1.18.0</td>
-<td title="Extra Info">Ubuntu</td>
+<td title="Product"></td>
+<td title="Version"></td>
+<td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx:1.18.0">cpe:/a:igor_sysoev:nginx:1.18.0</a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">nginx/1.18.0 (Ubuntu)</pre>
-</td></tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">nginx</td>
-<td title="Version">1.18.0</td>
-<td title="Extra Info">Ubuntu</td>
+<td title="Service">tcpwrapped</td>
+<td title="Product"></td>
+<td title="Version"></td>
+<td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx:1.18.0">cpe:/a:igor_sysoev:nginx:1.18.0</a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">nginx/1.18.0 (Ubuntu)</pre>
-</td></tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
 </tbody>
 </table></div>
 </div>
@@ -164,34 +148,24 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>146.59.226.142 - societenumerique.gouv.fr</td>
-<td>25</td>
-<td>tcp</td>
-<td>smtp</td>
-<td>Postfix smtpd</td>
-<td></td>
-<td>cpe:/a:postfix:postfix</td>
-<td></td>
-</tr>
-<tr>
-<td>146.59.226.142 - societenumerique.gouv.fr</td>
+<td>217.70.184.55 - societenumerique.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>nginx</td>
-<td>1.18.0</td>
-<td>cpe:/a:igor_sysoev:nginx:1.18.0</td>
-<td>Ubuntu</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td>146.59.226.142 - societenumerique.gouv.fr</td>
+<td>217.70.184.55 - societenumerique.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>http</td>
-<td>nginx</td>
-<td>1.18.0</td>
-<td>cpe:/a:igor_sysoev:nginx:1.18.0</td>
-<td>Ubuntu</td>
+<td>tcpwrapped</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table></div>
