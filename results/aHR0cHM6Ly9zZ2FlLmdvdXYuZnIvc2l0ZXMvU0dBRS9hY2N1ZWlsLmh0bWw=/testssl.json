@@ -171,7 +171,7 @@
               "ip"           : "sgae.gouv.fr/193.17.19.225",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
+              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -339,7 +339,7 @@
               "ip"           : "sgae.gouv.fr/193.17.19.225",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "318 >= 60 days"
+              "finding"      : "288 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "sgae.gouv.fr/193.17.19.225",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726321428"
+              "finding"      : "1728914939"
           }
 ,         {
               "id"           : "HSTS_multiple",
@@ -1189,6 +1189,6 @@
               "ip"           : "sgae.gouv.fr/193.17.19.225",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "59"
+              "finding"      : "480"
           }
 ]
