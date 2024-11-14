@@ -262,7 +262,7 @@
               "ip"           : "savoie.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "D19E438BD160BB98879D23D1F411CE11"
+              "finding"      : "D3F602CD247BA51B8C7DD21AED229368"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "savoie.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "B44A1CC18DB1B4C587F0D9E2BF7AF1FAE172A963"
+              "finding"      : "9146CB09F6CE13682D7EC2E4F8386F6567A412A7"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "savoie.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "B8C91DDDF4E8849756A97AE04AA1C036B7201C80AFF3CC634AE01633E08F34B3"
+              "finding"      : "9C335BA59398F641BA9E356082C4E71A4588E75D41669662C2C9B72375D5E4DC"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "savoie.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "savoie.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "savoie.gouv.fr www.savoie.gouv.fr"
+              "finding"      : "www.savoie.gouv.fr savoie.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "savoie.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (16)"
+              "severity"     : "OK",
+              "finding"      : "334 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "savoie.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-22 23:00"
+              "finding"      : "2024-10-14 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "savoie.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-10-30 22:59"
+              "severity"     : "OK",
+              "finding"      : "2025-10-14 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -374,7 +374,7 @@
               "ip"           : "savoie.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
@@ -500,7 +500,7 @@
               "ip"           : "savoie.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728913552"
+              "finding"      : "1731592067"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=B8C91DDDF4E8849756A97AE04AA1C036B7201C80AFF3CC634AE01633E08F34B3"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9C335BA59398F641BA9E356082C4E71A4588E75D41669662C2C9B72375D5E4DC"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "savoie.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "58"
+              "finding"      : "61"
           }
 ]
