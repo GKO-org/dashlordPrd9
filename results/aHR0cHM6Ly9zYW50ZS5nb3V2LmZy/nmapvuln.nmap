@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Mon Oct 14 13:40:47 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sante.gouv.fr
+# Nmap 7.92 scan initiated Thu Nov 14 13:43:24 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln sante.gouv.fr
 Nmap scan report for sante.gouv.fr (185.194.82.27)
-Host is up (0.081s latency).
+Host is up (0.14s latency).
 Not shown: 997 filtered tcp ports (no-response)
 PORT    STATE  SERVICE    VERSION
 80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
@@ -11,17 +11,17 @@ PORT    STATE  SERVICE    VERSION
 | fingerprint-strings: 
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     Date: Mon, 14 Oct 2024 13:41:06 GMT
+|     Date: Thu, 14 Nov 2024 13:43:46 GMT
 |     X-Spip-Cache: 21600
 |     X-Frame-Options: SAMEORIGIN
-|     Last-Modified: Mon, 14 Oct 2024 13:41:06 GMT
+|     Last-Modified: Thu, 14 Nov 2024 13:43:46 GMT
 |     Vary: Accept-Encoding
 |     X-Content-Type-Options: nosniff
 |     Connection: close
 |     Content-Type: text/html; charset=utf-8
-|     Set-Cookie: BIGipServerpool-dicom-portail-dares.cegedim.cloud-HTTP=!P07gwKS2cfQBSbVWDPlD0yXzT0UGhjB21tDRC8k9MhoZMF5gbexND+g/9ZfOmKYJES3R+0DyRiUrcTdGE99cR/MZ+k28; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-dicom-portail-dares.cegedim.cloud-HTTP=!K5XhrAG4aPjPZZtWDPlD0yXzT0UGhtL2POh3T4HqSnlYD+pgna4eCV/9hVJQ0Sr0fVUbIDEaQGbBCEmy4pK0asiDXEHp; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000
-|     Set-Cookie: TS01f99fc7=01352d381144ce8d9c5210be080e97fabae4740c6e86aa95054b0e1508e37230536a65b4417a8f58e3ae98a0eebcc739dadcda2574; Path=/
+|     Set-Cookie: TS01f99fc7=01352d381164dcf0c0e65fddaa829c66751983146ff72b8f0e03726ef33cc49ede06006160af2996d358a58bea07396718fa0545d8; Path=/
 |     <!DOCTYPE HTML>
 |     <html class="page_sommaire ltr fr no-js" lang="fr" dir="ltr">
 |     <head>
@@ -29,57 +29,57 @@ PORT    STATE  SERVICE    VERSION
 |     <meta http-equiv
 |   HTTPOptions: 
 |     HTTP/1.1 200 OK
-|     Date: Mon, 14 Oct 2024 13:41:07 GMT
+|     Date: Thu, 14 Nov 2024 13:43:47 GMT
 |     X-Spip-Cache: 21600
 |     X-Frame-Options: SAMEORIGIN
-|     Last-Modified: Mon, 14 Oct 2024 13:41:07 GMT
+|     Last-Modified: Thu, 14 Nov 2024 13:43:47 GMT
 |     Vary: Accept-Encoding
 |     X-Content-Type-Options: nosniff
 |     Connection: close
 |     Content-Type: text/html; charset=utf-8
-|     Set-Cookie: BIGipServerpool-dicom-portail-dares.cegedim.cloud-HTTP=!b3TZWeWrXQQ+kq5WDPlD0yXzT0UGhmDMD1dso1Qzw9mCr7q4PWo5ky9s4mrk5GTHCCdMTtvUeiqdnBX46k6UV+vhWxFz; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-dicom-portail-dares.cegedim.cloud-HTTP=!USNd+WT+xCK9ixZWDPlD0yXzT0UGhk52Y3GILhaTOOMGGoWo7pJEmGCJg4xoxZHXtCxTA25pIwBecmlR/AuCgRip5emC; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000
-|     Set-Cookie: TS01f99fc7=01352d381165bd66a933c6d78205dc0be35ce696a0c69b1bba3d59fc5408cad09b84ecb9b0969fb5bc68dda7098c9cc34e3ac4b087; Path=/
+|     Set-Cookie: TS01f99fc7=01352d3811cd312527dc2f2210bc9286428f97399292246ad9c694defbaf555f073acc8a4903ad12b32183caf8bf447e78fcb4d596; Path=/
 |     <!DOCTYPE HTML>
 |     <html class="page_sommaire ltr fr no-js" lang="fr" dir="ltr">
 |     <head>
 |     <script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/bno-jsb/,'js')})(document.documentElement);/*]]>*/</script>
 |_    <meta http-equiv
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=10/14%Time=670D1F73%P=x86_64-alpine-linu
-SF:x-musl%r(GetRequest,427F,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Mon,\x2014
-SF:\x20Oct\x202024\x2013:41:06\x20GMT\r\nX-Spip-Cache:\x2021600\r\nX-Frame
-SF:-Options:\x20SAMEORIGIN\r\nLast-Modified:\x20Mon,\x2014\x20Oct\x202024\
-SF:x2013:41:06\x20GMT\r\nVary:\x20Accept-Encoding\r\nX-Content-Type-Option
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/14%Time=6735FE93%P=x86_64-alpine-linu
+SF:x-musl%r(GetRequest,427F,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Thu,\x2014
+SF:\x20Nov\x202024\x2013:43:46\x20GMT\r\nX-Spip-Cache:\x2021600\r\nX-Frame
+SF:-Options:\x20SAMEORIGIN\r\nLast-Modified:\x20Thu,\x2014\x20Nov\x202024\
+SF:x2013:43:46\x20GMT\r\nVary:\x20Accept-Encoding\r\nX-Content-Type-Option
 SF:s:\x20nosniff\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x2
 SF:0charset=utf-8\r\nSet-Cookie:\x20BIGipServerpool-dicom-portail-dares\.c
-SF:egedim\.cloud-HTTP=!P07gwKS2cfQBSbVWDPlD0yXzT0UGhjB21tDRC8k9MhoZMF5gbex
-SF:ND\+g/9ZfOmKYJES3R\+0DyRiUrcTdGE99cR/MZ\+k28;\x20path=/;\x20Httponly;\x
-SF:20Secure\r\nStrict-Transport-Security:\x20max-age=31536000\r\nSet-Cooki
-SF:e:\x20TS01f99fc7=01352d381144ce8d9c5210be080e97fabae4740c6e86aa95054b0e
-SF:1508e37230536a65b4417a8f58e3ae98a0eebcc739dadcda2574;\x20Path=/\r\n\r\n
-SF:<!DOCTYPE\x20HTML>\n<html\x20class=\"page_sommaire\x20ltr\x20fr\x20no-j
-SF:s\"\x20lang=\"fr\"\x20dir=\"ltr\">\n\t<head>\n\t\t<script\x20type='text
-SF:/javascript'>/\*<!\[CDATA\[\*/\(function\(H\){H\.className=H\.className
-SF:\.replace\(/\\bno-js\\b/,'js'\)}\)\(document\.documentElement\);/\*\]\]
-SF:>\*/</script>\n\t\t\n\t\t<meta\x20http-equiv")%r(HTTPOptions,427F,"HTTP
-SF:/1\.1\x20200\x20OK\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2013:41:07\x2
-SF:0GMT\r\nX-Spip-Cache:\x2021600\r\nX-Frame-Options:\x20SAMEORIGIN\r\nLas
-SF:t-Modified:\x20Mon,\x2014\x20Oct\x202024\x2013:41:07\x20GMT\r\nVary:\x2
-SF:0Accept-Encoding\r\nX-Content-Type-Options:\x20nosniff\r\nConnection:\x
-SF:20close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nSet-Cookie:\
-SF:x20BIGipServerpool-dicom-portail-dares\.cegedim\.cloud-HTTP=!b3TZWeWrXQ
-SF:Q\+kq5WDPlD0yXzT0UGhmDMD1dso1Qzw9mCr7q4PWo5ky9s4mrk5GTHCCdMTtvUeiqdnBX4
-SF:6k6UV\+vhWxFz;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-Se
-SF:curity:\x20max-age=31536000\r\nSet-Cookie:\x20TS01f99fc7=01352d381165bd
-SF:66a933c6d78205dc0be35ce696a0c69b1bba3d59fc5408cad09b84ecb9b0969fb5bc68d
-SF:da7098c9cc34e3ac4b087;\x20Path=/\r\n\r\n<!DOCTYPE\x20HTML>\n<html\x20cl
-SF:ass=\"page_sommaire\x20ltr\x20fr\x20no-js\"\x20lang=\"fr\"\x20dir=\"ltr
-SF:\">\n\t<head>\n\t\t<script\x20type='text/javascript'>/\*<!\[CDATA\[\*/\
-SF:(function\(H\){H\.className=H\.className\.replace\(/\\bno-js\\b/,'js'\)
-SF:}\)\(document\.documentElement\);/\*\]\]>\*/</script>\n\t\t\n\t\t<meta\
-SF:x20http-equiv");
+SF:egedim\.cloud-HTTP=!K5XhrAG4aPjPZZtWDPlD0yXzT0UGhtL2POh3T4HqSnlYD\+pgna
+SF:4eCV/9hVJQ0Sr0fVUbIDEaQGbBCEmy4pK0asiDXEHp;\x20path=/;\x20Httponly;\x20
+SF:Secure\r\nStrict-Transport-Security:\x20max-age=31536000\r\nSet-Cookie:
+SF:\x20TS01f99fc7=01352d381164dcf0c0e65fddaa829c66751983146ff72b8f0e03726e
+SF:f33cc49ede06006160af2996d358a58bea07396718fa0545d8;\x20Path=/\r\n\r\n<!
+SF:DOCTYPE\x20HTML>\n<html\x20class=\"page_sommaire\x20ltr\x20fr\x20no-js\
+SF:"\x20lang=\"fr\"\x20dir=\"ltr\">\n\t<head>\n\t\t<script\x20type='text/j
+SF:avascript'>/\*<!\[CDATA\[\*/\(function\(H\){H\.className=H\.className\.
+SF:replace\(/\\bno-js\\b/,'js'\)}\)\(document\.documentElement\);/\*\]\]>\
+SF:*/</script>\n\t\t\n\t\t<meta\x20http-equiv")%r(HTTPOptions,391F,"HTTP/1
+SF:\.1\x20200\x20OK\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2013:43:47\x20G
+SF:MT\r\nX-Spip-Cache:\x2021600\r\nX-Frame-Options:\x20SAMEORIGIN\r\nLast-
+SF:Modified:\x20Thu,\x2014\x20Nov\x202024\x2013:43:47\x20GMT\r\nVary:\x20A
+SF:ccept-Encoding\r\nX-Content-Type-Options:\x20nosniff\r\nConnection:\x20
+SF:close\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nSet-Cookie:\x2
+SF:0BIGipServerpool-dicom-portail-dares\.cegedim\.cloud-HTTP=!USNd\+WT\+xC
+SF:K9ixZWDPlD0yXzT0UGhk52Y3GILhaTOOMGGoWo7pJEmGCJg4xoxZHXtCxTA25pIwBecmlR/
+SF:AuCgRip5emC;\x20path=/;\x20Httponly;\x20Secure\r\nStrict-Transport-Secu
+SF:rity:\x20max-age=31536000\r\nSet-Cookie:\x20TS01f99fc7=01352d3811cd3125
+SF:27dc2f2210bc9286428f97399292246ad9c694defbaf555f073acc8a4903ad12b32183c
+SF:af8bf447e78fcb4d596;\x20Path=/\r\n\r\n<!DOCTYPE\x20HTML>\n<html\x20clas
+SF:s=\"page_sommaire\x20ltr\x20fr\x20no-js\"\x20lang=\"fr\"\x20dir=\"ltr\"
+SF:>\n\t<head>\n\t\t<script\x20type='text/javascript'>/\*<!\[CDATA\[\*/\(f
+SF:unction\(H\){H\.className=H\.className\.replace\(/\\bno-js\\b/,'js'\)}\
+SF:)\(document\.documentElement\);/\*\]\]>\*/</script>\n\t\t\n\t\t<meta\x2
+SF:0http-equiv");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Oct 14 13:43:17 2024 -- 1 IP address (1 host up) scanned in 149.65 seconds
+# Nmap done at Thu Nov 14 13:46:03 2024 -- 1 IP address (1 host up) scanned in 158.59 seconds
