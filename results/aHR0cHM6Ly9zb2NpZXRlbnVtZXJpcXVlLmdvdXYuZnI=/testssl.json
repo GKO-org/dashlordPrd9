@@ -188,6 +188,13 @@
               "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA"
           }
 ,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "societenumerique.gouv.fr/217.70.184.55",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1"
+          }
+,         {
               "id"           : "TLS_extensions",
               "ip"           : "societenumerique.gouv.fr/217.70.184.55",
               "port"         : "443",
@@ -220,7 +227,7 @@
               "ip"           : "societenumerique.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -360,7 +367,7 @@
               "ip"           : "societenumerique.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "340 >= 60 days"
+              "finding"      : "309 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -776,7 +783,7 @@
               "ip"           : "societenumerique.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_X",
@@ -937,7 +944,7 @@
               "ip"           : "societenumerique.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-go_1178",
@@ -1077,6 +1084,6 @@
               "ip"           : "societenumerique.gouv.fr/217.70.184.55",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54"
+              "finding"      : "98"
           }
 ]
