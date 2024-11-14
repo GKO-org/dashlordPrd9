@@ -262,7 +262,7 @@
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "03F053D6064065651DB941C73761DE9F20E9"
+              "finding"      : "033D888BB059DD15250AE5953F1256B69C2E"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "66460910298B60176F768AE036D0D14B6CB0DA38"
+              "finding"      : "0119A168112E0F3F00A612C827DAB63579C9BE81"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F4A1A756B03C085B3407BB0AB347A6208A81BE4E3E41945DE0DB90D67FC74FFD"
+              "finding"      : "75E64908BD505955836161454B08F87A4B4FDE8D5E53C9160AF908285081491C"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFDDCCA/SgAwIBAgISA/BT1gZAZWUduUHHN2HenyDpMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTEwHhcNMjQwNzIyMDQ0NzMyWhcNMjQxMDIwMDQ0NzMxWjAqMSgwJgYDVQQDEx9mb3JtYXRpb25nZXN0aW9uZGVjcmlzZS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxTVMZFAo6JF1rMQddEjMqh0civPlOnBQSkA73UHyMhod6uL1azh45er5/2+tHZpbLCLATFyQ+qJU0bO+VO1uD6Q9Ouo6WTSZYDZeq//MekaGRo7WxgMkJERpjzhh2ssW8mGXQy03GW2zBNMBjduRTbWBv3V1RbGQcXGqhAscC3AR/DIGihkX1N8ZYuXjmdsT+gSLGtZZDXOlzyHPP79nrXl0oKHEQR03B+vx6iPzXM3Kfwr3hVD1OQHiLXMSTsb4MfnEccne7oDZMJDD8gAhIpw+ErhGN80L3nXOkx/ZtzeJbXhwfd9rpCwimSPfmqNQ15nJPhU25dra9rD6vtZ0bwIDAQABo4ICITCCAh0wDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQj1vqTKMJf2BbLcE3GHqS7ioYF4zAfBgNVHSMEGDAWgBTFz0ak6vTDwHpslcQtsF6SLybjuTBXBggrBgEFBQcBAQRLMEkwIgYIKwYBBQUHMAGGFmh0dHA6Ly9yMTEuby5sZW5jci5vcmcwIwYIKwYBBQUHMAKGF2h0dHA6Ly9yMTEuaS5sZW5jci5vcmcvMCoGA1UdEQQjMCGCH2Zvcm1hdGlvbmdlc3Rpb25kZWNyaXNlLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwggECBgorBgEEAdZ5AgQCBIHzBIHwAO4AdQBIsONr2qZHNA/lagL6nTDrHFIBy1bdLIHZu7+rOdiEcwAAAZDY+xkJAAAEAwBGMEQCIC3kf9RMQb++rUl7YJ2pHr3Ngt+bpm3vh2oKWioPrkbaAiB63BmW2bbUK47c2MF2C5jhC/194p4qFmJjy6QmC2F4mQB1AN/hVuuqBa+1nA+GcY2owDJOrlbZbqf1pWoB0cE7vlJcAAABkNj7GcgAAAQDAEYwRAIgRowL6GlEfL2fJy4fXgfKQ+IWg3occDQTQXJE6UVQkesCIHeNRf/gzCICITvFh4PXlggIbHMRRf9gvHg8c5F8YGz8MA0GCSqGSIb3DQEBCwUAA4IBAQAx26fzqO0JfmR0sJcOHEWwdRCjMUgc00n7hSVt4B5Cz8HugMJH8G3Ocji2rQwoPu/4okHuUgSc5h9MdE7IYTKKu1WxUxAvyQXGT6QUc1rruftndEe+THlT3iKEDcKjDyXms+ri2NnoFTXRVSEcy1VnWTuruqhJpqN6dlHrSuyCfK8c+YrVKQI4TT2GYHYQ25bLjPgiGBVOX3/1AxXhuLa+WaVNJLt4+L9su3poQUgaIVoBHlP5Df8ryoRslLV5RuXc0p62hf5kpF/k7c8lA/jnkqXKa2insf270StX2bj58DHD5+gVN538uWvA3KCd2NBc3L98xS9nlTcQfnNqGOBO\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFDzCCA/egAwIBAgISAz2Ii7BZ3RUlCuWVPxJWtpwuMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjQxMDIxMDU0MjM1WhcNMjUwMTE5MDU0MjM0WjAqMSgwJgYDVQQDEx9mb3JtYXRpb25nZXN0aW9uZGVjcmlzZS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5Czcxvdb4xkVRclhRUbrcLD6Hq/LttHN2iqEat982fkXszPspgg36N+0Q0PfJXE3XR0YJVoF6La2CNjWD063Bmu/BIMkdgRArk1konmXvKHV5BhRCjRhUpguNpCPm/8ZewbyY7zoQhT8K1GD1NqcfB00uL9HD87Hdo6epxWpP6w6ZSBjFy5ZYYNFXizyxKPQGj4Ah9nesWtPWW4IctnPCFDIqkCLizkrEYv92gdiCosrIuJuaB7vhfq+wLjR7Y+9iGflgHmwwbF1uP/EmZzees/gfvI9tcUIxYkBvFYFpsfTDb03dF2BBiiiWZfDymM4NZKusBDc7qdGWIbDI8E0wIDAQABo4ICJDCCAiAwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBSyqOtFufeHemhwaw1JZuthRj/ExTAfBgNVHSMEGDAWgBS7vMNHpeS8qcbDpHIMEI2iNeHI6DBXBggrBgEFBQcBAQRLMEkwIgYIKwYBBQUHMAGGFmh0dHA6Ly9yMTAuby5sZW5jci5vcmcwIwYIKwYBBQUHMAKGF2h0dHA6Ly9yMTAuaS5sZW5jci5vcmcvMCoGA1UdEQQjMCGCH2Zvcm1hdGlvbmdlc3Rpb25kZWNyaXNlLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwggEFBgorBgEEAdZ5AgQCBIH2BIHzAPEAdgCi4wrkRe+9rZt+OO1HZ3dT14JbhJTXK14bLMS5UKRH5wAAAZKtztMqAAAEAwBHMEUCIQCiWEoj6JCCyvjpOd/vtEPZC5cjIHXiORgUWWKTR4hm2wIgF+4T1U4GyO7lnZxGQoKc2hjC5NXWVVYRVGLlNCrrZZkAdwDgkrP8DB3I52g2H95huZZNClJ4GYpy1nLEsE2lbW9UBAAAAZKtztN2AAAEAwBIMEYCIQC4x0DGibFWoYB8z5Qc9HRRkiAkx/vxGOR6da8xvwVqfQIhAJPoQIYItupiZ2wX8DAerSIG60mk7/CuL9BfUHcBJkm9MA0GCSqGSIb3DQEBCwUAA4IBAQBQcz5ENnuT5QEvYNohIIEby8c+/ULj/OQh1y8uhamysHfS7TNluP4LiBewijmZxqoBlhQe/bDiREfjt5w0pmDZ6asjed5oG1wgCzK9KP0nEBmfAz6esLfpw15wl0niufO+6jfvJrTEbjNwrEF3RpHDsJHoUkP/L93RT85GJ+aAC9NGJoSTMo5wFc+yBr+64ELcclgNuznHwXh5jE3AvglSUsianstsLxsxOjGnUOKCp3PlG5dPyu7anhfbHevso1US5jCIBDEtB+PMUEPqGq4E+BvZWkW3iCB0Iy/nJ3b0g8Lck+H2Q1R0JoPRmy0n80uNoz5aROs8uzw5dtVwRPnk\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 15 days (5)"
+              "severity"     : "OK",
+              "finding"      : "65 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-07-22 04:47"
+              "finding"      : "2024-10-21 05:42"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-10-20 04:47"
+              "severity"     : "OK",
+              "finding"      : "2025-01-19 05:42"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,7 +381,7 @@
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://r11.o.lencr.org"
+              "finding"      : "http://r10.o.lencr.org"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -430,7 +430,7 @@
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "R11 (Let's Encrypt from US)"
+              "finding"      : "R10 (Let's Encrypt from US)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
@@ -542,7 +542,7 @@
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728915112"
+              "finding"      : "1731593248"
           }
 ,         {
               "id"           : "HSTS",
@@ -757,7 +757,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F4A1A756B03C085B3407BB0AB347A6208A81BE4E3E41945DE0DB90D67FC74FFD"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=75E64908BD505955836161454B08F87A4B4FDE8D5E53C9160AF908285081491C"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1147,6 +1147,6 @@
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "90"
+              "finding"      : "81"
           }
 ]
