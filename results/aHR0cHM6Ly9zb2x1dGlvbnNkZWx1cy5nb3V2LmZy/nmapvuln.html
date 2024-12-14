@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln solutionsdelus.gouv.fr</pre>
-<p class="lead">Thu Nov 14 14:16:33 2024 – Thu Nov 14 14:17:36 2024<br>1 hosts scanned.
+<p class="lead">Sat Dec 14 14:43:59 2024 – Sat Dec 14 14:45:09 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -120,13 +120,15 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">envoy</pre>
+<h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   DNSStatusRequestTCP: 
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Thu, 14 Nov 2024 14:16:54 GMT
+    date: Sat, 14 Dec 2024 14:44:21 GMT
     server: envoy
     connection: close
     Request
@@ -134,25 +136,25 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Thu, 14 Nov 2024 14:16:53 GMT
+    date: Sat, 14 Dec 2024 14:44:20 GMT
     server: envoy
     connection: close
     Request
   FourOhFourRequest: 
     HTTP/1.1 426 Upgrade Required
-    date: Thu, 14 Nov 2024 14:16:45 GMT
+    date: Sat, 14 Dec 2024 14:44:12 GMT
     server: envoy
     connection: close
     content-length: 0
   GetRequest: 
     HTTP/1.1 426 Upgrade Required
-    date: Thu, 14 Nov 2024 14:16:41 GMT
+    date: Sat, 14 Dec 2024 14:44:07 GMT
     server: envoy
     connection: close
     content-length: 0
   HTTPOptions: 
     HTTP/1.1 426 Upgrade Required
-    date: Thu, 14 Nov 2024 14:16:42 GMT
+    date: Sat, 14 Dec 2024 14:44:08 GMT
     server: envoy
     connection: close
     content-length: 0
@@ -160,7 +162,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Thu, 14 Nov 2024 14:16:55 GMT
+    date: Sat, 14 Dec 2024 14:44:23 GMT
     server: envoy
     connection: close
     Request
@@ -168,7 +170,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Thu, 14 Nov 2024 14:16:50 GMT
+    date: Sat, 14 Dec 2024 14:44:19 GMT
     server: envoy
     connection: close
     Request
@@ -176,7 +178,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Thu, 14 Nov 2024 14:16:42 GMT
+    date: Sat, 14 Dec 2024 14:44:10 GMT
     server: envoy
     connection: close
     Request
@@ -184,7 +186,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Thu, 14 Nov 2024 14:16:56 GMT
+    date: Sat, 14 Dec 2024 14:44:24 GMT
     server: envoy
     connection: close
     Request
@@ -192,12 +194,10 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Thu, 14 Nov 2024 14:16:45 GMT
+    date: Sat, 14 Dec 2024 14:44:11 GMT
     server: envoy
     connection: close
     Request</pre>
-<h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">envoy</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">443</td>
@@ -209,13 +209,15 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">envoy</pre>
+<h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  DNSStatusRequestTCP, Help: 
+  DNSStatusRequestTCP: 
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Thu, 14 Nov 2024 14:17:02 GMT
+    date: Sat, 14 Dec 2024 14:44:30 GMT
     server: envoy
     connection: close
     Request
@@ -223,33 +225,41 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Thu, 14 Nov 2024 14:17:00 GMT
+    date: Sat, 14 Dec 2024 14:44:28 GMT
     server: envoy
     connection: close
     Request
   FourOhFourRequest: 
     HTTP/1.1 426 Upgrade Required
-    date: Thu, 14 Nov 2024 14:16:50 GMT
+    date: Sat, 14 Dec 2024 14:44:17 GMT
     server: envoy
     connection: close
     content-length: 0
   GetRequest: 
     HTTP/1.1 426 Upgrade Required
-    date: Thu, 14 Nov 2024 14:16:46 GMT
+    date: Sat, 14 Dec 2024 14:44:14 GMT
     server: envoy
     connection: close
     content-length: 0
   HTTPOptions: 
     HTTP/1.1 426 Upgrade Required
-    date: Thu, 14 Nov 2024 14:16:49 GMT
+    date: Sat, 14 Dec 2024 14:44:15 GMT
     server: envoy
     connection: close
     content-length: 0
+  Help: 
+    HTTP/1.1 400 Bad Request
+    content-length: 11
+    content-type: text/plain
+    date: Sat, 14 Dec 2024 14:44:32 GMT
+    server: envoy
+    connection: close
+    Request
   RPCCheck: 
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Thu, 14 Nov 2024 14:16:59 GMT
+    date: Sat, 14 Dec 2024 14:44:27 GMT
     server: envoy
     connection: close
     Request
@@ -257,7 +267,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Thu, 14 Nov 2024 14:16:58 GMT
+    date: Sat, 14 Dec 2024 14:44:25 GMT
     server: envoy
     connection: close
     Request
@@ -265,7 +275,7 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Thu, 14 Nov 2024 14:17:05 GMT
+    date: Sat, 14 Dec 2024 14:44:34 GMT
     server: envoy
     connection: close
     Request
@@ -273,12 +283,10 @@
     HTTP/1.1 400 Bad Request
     content-length: 11
     content-type: text/plain
-    date: Thu, 14 Nov 2024 14:16:51 GMT
+    date: Sat, 14 Dec 2024 14:44:19 GMT
     server: envoy
     connection: close
     Request</pre>
-<h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">envoy</pre>
 </td></tr>
 </tbody>
 </table></div>
