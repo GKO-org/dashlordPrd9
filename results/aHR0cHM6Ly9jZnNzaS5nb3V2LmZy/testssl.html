@@ -20,9 +20,9 @@
 #####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad </i>  [~183 ciphers]
-  on fv-az1152-525:/home/testssl/bin/openssl.Linux.x86_64
+  on fv-az1044-264:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2024-11-14 14:07:40                --&gt;&gt; 54.36.91.62:443 (cfssi.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2024-12-14 14:25:23                --&gt;&gt; 54.36.91.62:443 (cfssi.gouv.fr) &lt;&lt;--</span>
 
  rDNS (54.36.91.62):     cluster027.hosting.ovh.net.
  Service detected:       HTTP
@@ -96,15 +96,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>032D4D31B29E2EF8E0CF86BB4E5D4B3D015D (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 720F2B4CCEC3D881A20F2ACFE88125AD3CE162E8
-                              SHA256 0DE3C2D07750F46FF84EF1D608A67105AF9F8EAD138048F14AA1E8E4538A8E65
+<span style="font-weight:bold;"> Serial                       </span>036B8358AE3A81F6B543FED91C141781A064 (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 C6C4280AFFE46DE934EE65DAFCC9AE6DB8B3920F
+                              SHA256 6EE381D819499DFF6EA69D7A14B43E63DC64C57A523BD5C7F4666CA41E04D3EF
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>cfssi.gouv.fr </i> (CN in response to request w/o SNI: <i>cluster027.hosting.ovh.net </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>cfssi.gouv.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#c05600;">expires &lt; 30 days (25)</span> (2024-09-10 15:58 --&gt; 2024-12-09 15:58)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">66 &gt;= 30 days</span> (2024-11-20 15:50 --&gt; 2025-02-18 15:50)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>--
 <span style="font-weight:bold;"> OCSP URI                     </span>http://r10.o.lencr.org
@@ -124,7 +124,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> HTTP clock skew              </span>0 sec from localtime
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
-<span style="font-weight:bold;"> Server banner                </span>Apache
+<span style="font-weight:bold;"> Server banner                </span>OVHcloud
 <span style="font-weight:bold;"> Application banner           </span>--
 <span style="font-weight:bold;"> Cookie(s)                    </span>(none issued at &quot;/&quot;) -- maybe better try target URL of 30x
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#c05600;">--</span>
@@ -147,7 +147,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0DE3C2D07750F46FF84EF1D608A67105AF9F8EAD138048F14AA1E8E4538A8E65" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=0DE3C2D07750F46FF84EF1D608A67105AF9F8EAD138048F14AA1E8E4538A8E65</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=6EE381D819499DFF6EA69D7A14B43E63DC64C57A523BD5C7F4666CA41E04D3EF" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=6EE381D819499DFF6EA69D7A14B43E63DC64C57A523BD5C7F4666CA41E04D3EF</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses cipher block chaining (CBC) ciphers with TLS. Check patches
@@ -207,7 +207,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS is not offered
 
-<span style="color:white;background-color:black;"> Done 2024-11-14 14:08:29 [  52s] --&gt;&gt; 54.36.91.62:443 (cfssi.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2024-12-14 14:26:56 [  95s] --&gt;&gt; 54.36.91.62:443 (cfssi.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>

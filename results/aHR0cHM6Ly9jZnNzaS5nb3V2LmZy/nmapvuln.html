@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln cfssi.gouv.fr</pre>
-<p class="lead">Thu Nov 14 14:08:31 2024 – Thu Nov 14 14:08:56 2024<br>1 hosts scanned.
+<p class="lead">Sat Dec 14 14:26:58 2024 – Sat Dec 14 14:27:48 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -115,49 +115,25 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">nginx</td>
+<td title="Product">OVHcloud</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  Apache
-  nginx</pre>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">OVHcloud</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   GetRequest: 
     HTTP/1.1 404 Not Found
-    server: nginx
-    date: Thu, 14 Nov 2024 14:08:45 GMT
+    date: Sat, 14 Dec 2024 14:27:16 GMT
     content-type: text/html; charset=utf8
-    content-length: 4959
-    x-ovh-webhosting-id: fa020aaafa3ce83a164ebf5f36e18f10
+    content-length: 4958
+    x-ovh-webhosting-id: 4fde7d5725dd2ee0b7e4deedfc20f662
     pragma: no-cache
     cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-    x-iplb-request-id: 4AF90EDD:7043_36245B3E:0050_67360467_30757:43BF
-    x-iplb-instance: 52208
-    connection: close
-    &lt;html xml:lang="en-EN" lang="en-EN"&gt;
-    &lt;head&gt;
-    &lt;title&gt;Site not installed - OVHcloud&lt;/title&gt;
-    &lt;meta name="viewport" content="width=device-width"&gt;
-    &lt;meta http-equiv="refresh" content="90"&gt;
-    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
-    &lt;meta http-equiv="Content-Language" content="en-EN"&gt;
-    &lt;meta name="robots" content="noindex, nofollow"&gt;
-    &lt;meta name="description" qtlid="283606" content="Site not installed"&gt;
-    &lt;meta h
-  HTTPOptions: 
-    HTTP/1.1 404 Not Found
-    server: nginx
-    date: Thu, 14 Nov 2024 14:08:45 GMT
-    content-type: text/html; charset=utf8
-    content-length: 4959
-    x-ovh-webhosting-id: afd55e7a06e09aebea38632a1fbadebe
-    pragma: no-cache
-    cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-    x-iplb-request-id: 4AF90EDD:7040_36245B3E:0050_6736046D_17F4D:4C47
+    server: OVHcloud
+    x-iplb-request-id: 142BF561:9FC1_36245B3E:0050_675D95BE_391E6:3C58
     x-iplb-instance: 52233
     connection: close
     &lt;html xml:lang="en-EN" lang="en-EN"&gt;
@@ -169,20 +145,86 @@
     &lt;meta http-equiv="Content-Language" content="en-EN"&gt;
     &lt;meta name="robots" content="noindex, nofollow"&gt;
     &lt;meta name="description" qtlid="283606" content="Site not installed"&gt;
-    &lt;meta h</pre>
+    &lt;met
+  HTTPOptions: 
+    HTTP/1.1 404 Not Found
+    date: Sat, 14 Dec 2024 14:27:16 GMT
+    content-type: text/html; charset=utf8
+    content-length: 4958
+    x-ovh-webhosting-id: a091beb7eb01fe9bf75182b897208f8c
+    pragma: no-cache
+    cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    server: OVHcloud
+    x-iplb-request-id: 142BF561:9FC4_36245B3E:0050_675D95C4_1E0C1:1E51
+    x-iplb-instance: 52219
+    connection: close
+    &lt;html xml:lang="en-EN" lang="en-EN"&gt;
+    &lt;head&gt;
+    &lt;title&gt;Site not installed - OVHcloud&lt;/title&gt;
+    &lt;meta name="viewport" content="width=device-width"&gt;
+    &lt;meta http-equiv="refresh" content="90"&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+    &lt;meta http-equiv="Content-Language" content="en-EN"&gt;
+    &lt;meta name="robots" content="noindex, nofollow"&gt;
+    &lt;meta name="description" qtlid="283606" content="Site not installed"&gt;
+    &lt;met</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">nginx</td>
+<td title="Service">https</td>
+<td title="Product">OVHcloud</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">OVHcloud</pre>
+<h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  GetRequest: 
+    HTTP/1.1 404 Not Found
+    Date: Sat, 14 Dec 2024 14:27:22 GMT
+    Content-Type: text/html; charset=utf8
+    Content-Length: 4958
+    Connection: close
+    X-OVH-Webhosting-Id: 757c4ab5de6f8fd50d98aaf71bd4be39
+    pragma: no-cache
+    cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    Server: OVHcloud
+    &lt;html xml:lang="en-EN" lang="en-EN"&gt;
+    &lt;head&gt;
+    &lt;title&gt;Site not installed - OVHcloud&lt;/title&gt;
+    &lt;meta name="viewport" content="width=device-width"&gt;
+    &lt;meta http-equiv="refresh" content="90"&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+    &lt;meta http-equiv="Content-Language" content="en-EN"&gt;
+    &lt;meta name="robots" content="noindex, nofollow"&gt;
+    &lt;meta name="description" qtlid="283606" content="Site not installed"&gt;
+    &lt;meta http-equiv="cache-control" content="no-cache"&gt;
+    &lt;meta http-equiv="pragma" content="
+  HTTPOptions: 
+    HTTP/1.1 404 Not Found
+    Date: Sat, 14 Dec 2024 14:27:23 GMT
+    Content-Type: text/html; charset=utf8
+    Content-Length: 4958
+    Connection: close
+    X-OVH-Webhosting-Id: afc5eb365ab84a366e91f0778cd5940f
+    pragma: no-cache
+    cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+    Server: OVHcloud
+    &lt;html xml:lang="en-EN" lang="en-EN"&gt;
+    &lt;head&gt;
+    &lt;title&gt;Site not installed - OVHcloud&lt;/title&gt;
+    &lt;meta name="viewport" content="width=device-width"&gt;
+    &lt;meta http-equiv="refresh" content="90"&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+    &lt;meta http-equiv="Content-Language" content="en-EN"&gt;
+    &lt;meta name="robots" content="noindex, nofollow"&gt;
+    &lt;meta name="description" qtlid="283606" content="Site not installed"&gt;
+    &lt;meta http-equiv="cache-control" content="no-cache"&gt;
+    &lt;meta http-equiv="pragma" content="</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -206,7 +248,7 @@
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>nginx</td>
+<td>OVHcloud</td>
 <td></td>
 <td></td>
 <td></td>
@@ -215,10 +257,10 @@
 <td>54.36.91.62 - cfssi.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>http</td>
-<td>nginx</td>
+<td>https</td>
+<td>OVHcloud</td>
 <td></td>
-<td>cpe:/a:igor_sysoev:nginx</td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
