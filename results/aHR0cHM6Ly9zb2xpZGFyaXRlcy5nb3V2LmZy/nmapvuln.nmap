@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Thu Nov 14 14:16:40 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln solidarites.gouv.fr
+# Nmap 7.92 scan initiated Sat Dec 14 14:40:58 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln solidarites.gouv.fr
 Nmap scan report for solidarites.gouv.fr (185.194.82.206)
 Host is up (0.14s latency).
 Not shown: 997 filtered tcp ports (no-response)
@@ -7,6 +7,7 @@ PORT    STATE  SERVICE    VERSION
 |_http-server-header: BigIP
 113/tcp closed ident
 443/tcp open   ssl/https
+|_http-trane-info: Problem with XML parsing of /evox/about
 | fingerprint-strings: 
 |   FourOhFourRequest: 
 |     HTTP/1.1 200 OK
@@ -15,10 +16,13 @@ PORT    STATE  SERVICE    VERSION
 |     Connection: close
 |     Content-Type: text/html
 |     Content-Length: 245
-|     <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: <10600432828822171313><br><br><a href='javascript:history.back();'>[Go Back]</body></html>
+|     X-Frame-Options: SAMEORIGIN
+|     X-XSS-Protection: 1; mode=block
+|     X-Content-Type-Options: nosniff
+|     <html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br><br>Your support ID is: <10853012110686731247><br><br><a href='javascript:history.back();'>[Go Back]</body></html>
 |   GetRequest, HTTPOptions: 
 |     HTTP/1.1 400 Bad Request
-|     Date: Thu, 14 Nov 2024 14:17:03 GMT
+|     Date: Sat, 14 Dec 2024 14:41:26 GMT
 |     Content-Length: 226
 |     Content-Type: text/html; charset=iso-8859-1
 |     Age: 0
@@ -33,16 +37,11 @@ PORT    STATE  SERVICE    VERSION
 |     <h1>Bad Request</h1>
 |     <p>Your browser sent a request that this server could not understand.<br />
 |     </p>
-|     </body></html>
-|   RTSPRequest: 
-|     HTTP/1.1 400 Bad Request
-|     Connection: close
-|_    Set-Cookie: BIGipServerpool-handicap-v2.cegedim.cloud-HTTP=3468974346.20480.0000; path=/; Httponly; Secure
-|_http-trane-info: Problem with XML parsing of /evox/about
+|_    </body></html>
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/14%Time=6736065F%P=x86_64-alpine-linu
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=12/14%Time=675D9916%P=x86_64-alpine-linu
 SF:x-musl%r(GetRequest,20C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x2
-SF:0Thu,\x2014\x20Nov\x202024\x2014:17:03\x20GMT\r\nContent-Length:\x20226
+SF:0Sat,\x2014\x20Dec\x202024\x2014:41:26\x20GMT\r\nContent-Length:\x20226
 SF:\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\nAge:\x200\r\nX
 SF:-Cache:\x20MISS\r\nX-Cache-Hits:\x200\r\nConnection:\x20close\r\nSet-Co
 SF:okie:\x20BIGipServerpool-handicap-v2\.cegedim\.cloud-HTTP=3468974346\.2
@@ -51,8 +50,8 @@ SF:x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<titl
 SF:e>400\x20Bad\x20Request</title>\n</head><body>\n<h1>Bad\x20Request</h1>
 SF:\n<p>Your\x20browser\x20sent\x20a\x20request\x20that\x20this\x20server\
 SF:x20could\x20not\x20understand\.<br\x20/>\n</p>\n</body></html>\n")%r(HT
-SF:TPOptions,20C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Thu,\x201
-SF:4\x20Nov\x202024\x2014:17:03\x20GMT\r\nContent-Length:\x20226\r\nConten
+SF:TPOptions,20C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sat,\x201
+SF:4\x20Dec\x202024\x2014:41:26\x20GMT\r\nContent-Length:\x20226\r\nConten
 SF:t-Type:\x20text/html;\x20charset=iso-8859-1\r\nAge:\x200\r\nX-Cache:\x2
 SF:0MISS\r\nX-Cache-Hits:\x200\r\nConnection:\x20close\r\nSet-Cookie:\x20B
 SF:IGipServerpool-handicap-v2\.cegedim\.cloud-HTTP=3468974346\.20480\.0000
@@ -61,18 +60,16 @@ SF:x20\"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>400\x20B
 SF:ad\x20Request</title>\n</head><body>\n<h1>Bad\x20Request</h1>\n<p>Your\
 SF:x20browser\x20sent\x20a\x20request\x20that\x20this\x20server\x20could\x
 SF:20not\x20understand\.<br\x20/>\n</p>\n</body></html>\n")%r(FourOhFourRe
-SF:quest,18F,"HTTP/1\.1\x20200\x20OK\r\nCache-Control:\x20no-store,\x20mus
+SF:quest,1EE,"HTTP/1\.1\x20200\x20OK\r\nCache-Control:\x20no-store,\x20mus
 SF:t-revalidate,\x20no-cache\r\nPragma:\x20no-cache\r\nConnection:\x20clos
-SF:e\r\nContent-Type:\x20text/html\r\nContent-Length:\x20245\r\n\r\n<html>
-SF:<head><title>Request\x20Rejected</title></head><body>The\x20requested\x
-SF:20URL\x20was\x20rejected\.\x20Please\x20consult\x20with\x20your\x20admi
-SF:nistrator\.<br><br>Your\x20support\x20ID\x20is:\x20<1060043282882217131
-SF:3><br><br><a\x20href='javascript:history\.back\(\);'>\[Go\x20Back\]</bo
-SF:dy></html>")%r(RTSPRequest,9B,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCo
-SF:nnection:\x20close\r\nSet-Cookie:\x20BIGipServerpool-handicap-v2\.ceged
-SF:im\.cloud-HTTP=3468974346\.20480\.0000;\x20path=/;\x20Httponly;\x20Secu
-SF:re\r\n\r\n");
+SF:e\r\nContent-Type:\x20text/html\r\nContent-Length:\x20245\r\nX-Frame-Op
+SF:tions:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Cont
+SF:ent-Type-Options:\x20nosniff\r\n\r\n<html><head><title>Request\x20Rejec
+SF:ted</title></head><body>The\x20requested\x20URL\x20was\x20rejected\.\x2
+SF:0Please\x20consult\x20with\x20your\x20administrator\.<br><br>Your\x20su
+SF:pport\x20ID\x20is:\x20<10853012110686731247><br><br><a\x20href='javascr
+SF:ipt:history\.back\(\);'>\[Go\x20Back\]</body></html>");
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Thu Nov 14 14:19:24 2024 -- 1 IP address (1 host up) scanned in 163.56 seconds
+# Nmap done at Sat Dec 14 14:43:42 2024 -- 1 IP address (1 host up) scanned in 164.49 seconds
