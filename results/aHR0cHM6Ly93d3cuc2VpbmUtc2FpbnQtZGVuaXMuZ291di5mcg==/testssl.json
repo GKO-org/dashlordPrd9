@@ -56,11 +56,18 @@
               "finding"      : "offered with final"
           }
 ,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "www.seine-saint-denis.gouv.fr/77.159.252.140",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
               "id"           : "ALPN",
               "ip"           : "www.seine-saint-denis.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not offered"
+              "finding"      : "http/1.1"
           }
 ,         {
               "id"           : "cipherlist_NULL",
@@ -171,7 +178,7 @@
               "ip"           : "www.seine-saint-denis.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'extended master secret/#23'"
+              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'extended master secret/#23'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -339,7 +346,7 @@
               "ip"           : "www.seine-saint-denis.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "304 >= 60 days"
+              "finding"      : "273 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,14 +500,14 @@
               "ip"           : "www.seine-saint-denis.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.seine-saint-denis.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734185942"
+              "finding"      : "1736862336"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -1084,6 +1091,6 @@
               "ip"           : "www.seine-saint-denis.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "114"
+              "finding"      : "70"
           }
 ]
