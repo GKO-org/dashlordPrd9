@@ -20,9 +20,9 @@
 #####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad </i>  [~183 ciphers]
-  on fv-az1391-213:/home/testssl/bin/openssl.Linux.x86_64
+  on fv-az1675-69:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2024-12-14 13:37:06                --&gt;&gt; 178.237.111.255:443 (www.registre-coproprietes.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2025-01-14 13:16:33                --&gt;&gt; 178.237.111.255:443 (www.registre-coproprietes.gouv.fr) &lt;&lt;--</span>
 
  rDNS (178.237.111.255): --
  Service detected:       HTTP
@@ -75,10 +75,13 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing server defaults (Server Hello) </span>
 
-<span style="font-weight:bold;"> TLS extensions (standard)    </span>(none)
-<span style="font-weight:bold;"> Session Ticket RFC 5077 hint </span>no -- no lifetime advertised
+<span style="font-weight:bold;"> TLS extensions (standard)    </span>&quot;server name/#0&quot; &quot;renegotiation info/#65281&quot;
+                              &quot;EC point formats/#11&quot; &quot;session ticket/#35&quot;
+                              &quot;heartbeat/#15&quot;
+                              &quot;application layer protocol negotiation/#16&quot;
+<span style="font-weight:bold;"> Session Ticket RFC 5077 hint </span>300 seconds, session tickets keys seems to be rotated &lt; daily
 <span style="font-weight:bold;"> SSL Session ID support       </span>yes
-<span style="font-weight:bold;"> Session Resumption           </span>Tickets no, <span style="color:#cd00cd;">ID resumption test failed</span>
+<span style="font-weight:bold;"> Session Resumption           </span>Tickets: yes, ID: yes
 <span style="font-weight:bold;"> TLS clock skew</span>               Random values, no fingerprinting possible 
 <span style="font-weight:bold;"> Client Authentication        </span>optional
 <span style="font-weight:bold;"> CA List for Client Auth      </span>CN=Certinomis - Easy CA,OU=0002 433998903,O=Certinomis,C=FR
@@ -106,14 +109,23 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               CN=Keynectis CA for Enterprise signature,OU=0002 478217318,O=Keynectis,C=FR
                               CN=ChamberSign France CA3 Root,2.5.4.97=#0C0F4E545246522D343333373032343739,OU=0002 433702479,O=ChamberSign France,C=FR
 
-<span style="color:#be32d0;font-weight:bold;">Client problem: No server certificate could be retrieved. Thus we can&apos;t continue with &quot;server defaults&quot;.</span>
+<span style="color:#be32d0;font-weight:bold;">Client problem, shouldn&apos;t happen: Host certificate found but we can&apos;t continue with &quot;server defaults&quot;.</span>
 
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
-<span style="font-weight:bold;"> HTTP Status Code           </span><span style="color:#cd00cd;">HTTP header reply empty. </span><span style="color:#cd00cd;">No HTTP status code.</span>
-<span style="font-weight:bold;"> HTTP Status Code           </span><span style="color:#be32d0;font-weight:bold;">HTTP header was repeatedly zero.</span>
-Skipping complete HTTP header section.
+<span style="font-weight:bold;"> HTTP Status Code           </span>  200 
+<span style="font-weight:bold;"> HTTP clock skew              </span>-1 sec from localtime
+<span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#008817;">185 days</span>=16000000 s<span style="color:#008817;">, includeSubDomains</span>
+<span style="font-weight:bold;"> Public Key Pinning           </span>--
+<span style="font-weight:bold;"> Server banner                </span>(no &quot;Server&quot; line in header, interesting!)
+<span style="font-weight:bold;"> Application banner           </span>--
+<span style="font-weight:bold;"> Cookie(s)                    </span>1 issued: <span style="color:#008817;">1/1</span> secure, <span style="color:#008817;">1/1</span> HttpOnly
+<span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
+                              <span style="color:#008817;">X-Content-Type-Options</span>: nosniff
+                              Referrer-Policy: no-referrer-when-downgrade
+                              Cache-Control: private
+<span style="font-weight:bold;"> Reverse Proxy banner         </span>--
 
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing vulnerabilities </span>
@@ -196,7 +208,7 @@ Skipping complete HTTP header section.
                               Grade capped to
                                 B. Forward Secrecy (FS) is not supported
 
-<span style="color:white;background-color:black;"> Done 2024-12-14 13:38:09 [  66s] --&gt;&gt; 178.237.111.255:443 (www.registre-coproprietes.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2025-01-14 13:18:33 [ 124s] --&gt;&gt; 178.237.111.255:443 (www.registre-coproprietes.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>

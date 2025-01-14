@@ -157,14 +157,14 @@
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "(none)"
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'heartbeat/#15' 'application layer protocol negotiation/#16'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "no -- no lifetime advertised"
+              "finding"      : "valid for 300 seconds only (<daily)"
           }
 ,         {
               "id"           : "SSL_sessionID_support",
@@ -178,14 +178,14 @@
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
-              "severity"     : "WARN",
-              "finding"      : "check failed because of connect problem"
+              "severity"     : "INFO",
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -381,7 +381,7 @@
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
               "severity"     : "WARN",
-              "finding"      : "Client problem: No server certificate could be retrieved. Thus we can't continue with 'server defaults'."
+              "finding"      : "Client problem, shouldn't happen: Host certificate found but we can't continue with 'server defaults'."
           }
 ,         {
               "id"           : "cert_numbers",
@@ -394,22 +394,121 @@
               "id"           : "HTTP_status_code",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
-              "severity"     : "WARN",
-              "finding"      : "HTTP header reply empty"
+              "severity"     : "INFO",
+              "finding"      : "200  ('/')"
           }
 ,         {
-              "id"           : "HTTP_status_code",
+              "id"           : "HTTP_clock_skew",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
-              "severity"     : "WARN",
-              "finding"      : "No HTTP status code"
+              "severity"     : "INFO",
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
-              "id"           : "scanProblem",
+              "id"           : "HTTP_headerTime",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
-              "severity"     : "WARN",
-              "finding"      : "HTTP header was repeatedly zero."
+              "severity"     : "INFO",
+              "finding"      : "1736860635"
+          }
+,         {
+              "id"           : "HSTS_time",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "185 days (=16000000 seconds) > 15552000 seconds"
+          }
+,         {
+              "id"           : "HSTS_subdomains",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "includes subdomains"
+          }
+,         {
+              "id"           : "HSTS_preload",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "domain is NOT marked for preloading"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No Server banner line in header, interesting!"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1 at '/'"
+          }
+,         {
+              "id"           : "cookie_secure",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as secure"
+          }
+,         {
+              "id"           : "cookie_httponly",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "All (1) at '/' marked as HttpOnly"
+          }
+,         {
+              "id"           : "X-Frame-Options",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SAMEORIGIN"
+          }
+,         {
+              "id"           : "X-Content-Type-Options",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "nosniff"
+          }
+,         {
+              "id"           : "Referrer-Policy",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no-referrer-when-downgrade"
+          }
+,         {
+              "id"           : "Cache-Control",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "private"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
           }
 ,         {
               "id"           : "heartbleed",
@@ -922,6 +1021,6 @@
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "66"
+              "finding"      : "124"
           }
 ]
