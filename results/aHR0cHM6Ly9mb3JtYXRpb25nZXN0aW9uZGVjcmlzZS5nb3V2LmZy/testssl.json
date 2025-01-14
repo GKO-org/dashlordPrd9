@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "35 >= 30 days"
+              "severity"     : "HIGH",
+              "finding"      : "expires < 15 days (4)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "HIGH",
               "finding"      : "2025-01-19 05:42"
           }
 ,         {
@@ -542,7 +542,7 @@
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734186611"
+              "finding"      : "1736862946"
           }
 ,         {
               "id"           : "HSTS",
@@ -1147,6 +1147,6 @@
               "ip"           : "formationgestiondecrise.gouv.fr/54.38.173.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "81"
+              "finding"      : "84"
           }
 ]
