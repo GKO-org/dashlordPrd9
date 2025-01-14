@@ -374,7 +374,7 @@
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "261 >= 60 days"
+              "finding"      : "230 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -528,14 +528,14 @@
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-3504 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734185640"
+              "finding"      : "1736858736"
           }
 ,         {
               "id"           : "HSTS",
@@ -1105,6 +1105,6 @@
               "ip"           : "ofpra.gouv.fr/46.18.193.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "81"
+              "finding"      : "69"
           }
 ]
