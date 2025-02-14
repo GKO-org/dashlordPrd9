@@ -139,6 +139,20 @@
               "finding"      : "ECDHE-RSA-AES256-SHA"
           }
 ,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
               "id"           : "cipher_order",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
@@ -149,8 +163,22 @@
               "id"           : "FS",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "No ciphers supporting Forward Secrecy offered"
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1"
           }
 ,         {
               "id"           : "TLS_extensions",
@@ -177,15 +205,15 @@
               "id"           : "sessionresumption_ticket",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "supported"
+              "severity"     : "WARN",
+              "finding"      : "check failed, pls report"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "supported"
+              "severity"     : "WARN",
+              "finding"      : "check failed because of connect problem"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -409,7 +437,7 @@
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736860635"
+              "finding"      : "1739539314"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -444,7 +472,7 @@
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No Server banner line in header, interesting!"
+              "finding"      : "Server-Timing: dtRpid;desc='-2104943794', dtSInfo;desc='0'"
           }
 ,         {
               "id"           : "banner_application",
@@ -458,21 +486,21 @@
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1 at '/'"
+              "finding"      : "2 at '/'"
           }
 ,         {
               "id"           : "cookie_secure",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "All (1) at '/' marked as secure"
+              "severity"     : "INFO",
+              "finding"      : "1/2 at '/' marked as secure"
           }
 ,         {
               "id"           : "cookie_httponly",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "All (1) at '/' marked as HttpOnly"
+              "severity"     : "INFO",
+              "finding"      : "1/2 at '/' marked as HttpOnly"
           }
 ,         {
               "id"           : "X-Frame-Options",
@@ -576,10 +604,10 @@
               "id"           : "BREACH",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "OK",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -1010,17 +1038,10 @@
               "finding"      : "Grade capped to B. TLS 1.1 offered"
           }
 ,         {
-              "id"           : "grade_cap_reason_2",
-              "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to B. Forward Secrecy (FS) is not supported"
-          }
-,         {
               "id"           : "scanTime",
               "ip"           : "www.registre-coproprietes.gouv.fr/178.237.111.255",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "124"
+              "finding"      : "65"
           }
 ]
