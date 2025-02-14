@@ -321,6 +321,13 @@
               "finding"      : "Ok via SAN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "servicesalapersonne.gouv.fr/45.223.153.83",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "servicesalapersonne.gouv.fr/45.223.153.83",
               "port"         : "443",
@@ -338,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "servicesalapersonne.gouv.fr/45.223.153.83",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "82 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (51)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "servicesalapersonne.gouv.fr/45.223.153.83",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-04-06 23:59"
           }
 ,         {
@@ -1380,6 +1387,13 @@
               "finding"      : "Ok via SAN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "servicesalapersonne.gouv.fr/45.223.60.83",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "servicesalapersonne.gouv.fr/45.223.60.83",
               "port"         : "443",
@@ -1397,8 +1411,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "servicesalapersonne.gouv.fr/45.223.60.83",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "82 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (51)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1411,7 +1425,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "servicesalapersonne.gouv.fr/45.223.60.83",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-04-06 23:59"
           }
 ,         {
@@ -2122,6 +2136,6 @@
               "ip"           : "servicesalapersonne.gouv.fr/45.223.60.83",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "195"
+              "finding"      : "132"
           }
 ]
