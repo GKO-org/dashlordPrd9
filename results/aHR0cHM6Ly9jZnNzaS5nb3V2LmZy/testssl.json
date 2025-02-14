@@ -262,7 +262,7 @@
               "ip"           : "cfssi.gouv.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "036B8358AE3A81F6B543FED91C141781A064"
+              "finding"      : "039BAAA4B521DD14F4F22EB0301BF2D75E48"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "cfssi.gouv.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "C6C4280AFFE46DE934EE65DAFCC9AE6DB8B3920F"
+              "finding"      : "D73FC9B863B468AD0092D835C2A638761C3E8D85"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "cfssi.gouv.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6EE381D819499DFF6EA69D7A14B43E63DC64C57A523BD5C7F4666CA41E04D3EF"
+              "finding"      : "3B18A6C6F6DF4A1D0875BCE0C6E1A8626ECFEC79CA5A5A77F861F132C1DFC0D3"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "cfssi.gouv.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE6TCCA9GgAwIBAgISA2uDWK46gfa1Q/7ZHBQXgaBkMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjQxMTIwMTU1MDA0WhcNMjUwMjE4MTU1MDAzWjAYMRYwFAYDVQQDEw1jZnNzaS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoClAs8Axposnz+mKnjgbX6F9I3Eky5h8JEZ+z9nw6mxcI8rztr8+h4QzFHia1/CGOMCjdMJ4epj9qtGhX3v8duQSL0hMWPwbtJ7SqvB6LW4ujjsL+BXBI+dzlwO3jBz2lGLxShm2ntph2Hma2h5fy132eqAZ0hNRdiYDXOWWsOV5rR7HHzwwhIuABERvxXY+XPwrzHmCiDJO+CZn5i1aSXur/Z8WczmIQONhn6jVs2ioDbsFKOGYzNrW9g8rjXXN8kooH2KyKJiF997rSG91l1Z3boryufDVXi53u1c0DDiYkOwkxZ/fsENTCCS8jzpNxp090sHhbpas0sG0R0sHDwIDAQABo4ICEDCCAgwwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBSk1PwEqlzqmtHEH7ODPVOuhXn72jAfBgNVHSMEGDAWgBS7vMNHpeS8qcbDpHIMEI2iNeHI6DBXBggrBgEFBQcBAQRLMEkwIgYIKwYBBQUHMAGGFmh0dHA6Ly9yMTAuby5sZW5jci5vcmcwIwYIKwYBBQUHMAKGF2h0dHA6Ly9yMTAuaS5sZW5jci5vcmcvMBgGA1UdEQQRMA+CDWNmc3NpLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwggEDBgorBgEEAdZ5AgQCBIH0BIHxAO8AdQCi4wrkRe+9rZt+OO1HZ3dT14JbhJTXK14bLMS5UKRH5wAAAZNKecakAAAEAwBGMEQCIBs5t1OUg5hBNkx7YxAywVgpqTHF2JoLfcSjjuqIexojAiAwXD2FEd4xuVTw1KKNvwkNJu8g7lbAEXG2xgcYQUF78QB2AH1ZHhLheCp7HGFnfF79+NCHXBSgTpWeuQMv2Q6MLnm4AAABk0p5xusAAAQDAEcwRQIgYp3Gk1d4OokqXcSLtwQW/xS087xCDXk81HDmz4QufPcCIQCPuELzek3iKzak60OUNHvELFhEjVkaw4X4PZvGajGLwTANBgkqhkiG9w0BAQsFAAOCAQEAHdCms0sgSLrqvf41XQI4m0b/r0MqPX26Tx6d/7nwyRBzD6uFwTml5mxDffzCEtRWDZLirVPO9G2aY5wpaaGr1KS0SenevBDtKPh9z2UUT46CyNiEvk3lTRTgCdas4EAVF9P89z6ZV6hYOzFtaUbdIESUV3UKdXg7xoBF1V5LxvJCTJGNx3S2664L1jwK9T+hcSmaF9JsZsHUkrOm6Zq1Q5INiv+jH6U2Tfy7HWH+Yq7w27KhQJP7knqHORd3CYsXp0pUabNUEsWXcTfK24fGprExJCNPS80tPOKIl2cViLp8HXNIPoKTchcPxA/tZ7VNh6bs91szvYZWyfD7sIiXdA==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE6jCCA9KgAwIBAgISA5uqpLUh3RT08i6wMBvy115IMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjUwMTMxMTEwODQ3WhcNMjUwNTAxMTEwODQ2WjAYMRYwFAYDVQQDEw1jZnNzaS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlQE6JSW5AfvLv1t6Zrm1jCNkbqK/odLspDBucFfoXGxUigSG9fybaIz2IT6v3hjzraBXOlAV+Xilu5brBfUQL/DoeXMGnjwgulSrsoLiKhZaRQbRzdjA501Iapj4pdumMaRGOTi3a/mcb9l+PA9GubYttMyy2qw9/FY7aAB+LWZbJsD96s7pyS/Ij/fs4BM4pAEudTGu8+41ZmzNoRvdvfQlbHKtFkzxsw1FVwAz2LchBS5DhMewmm2G9MRdHpXI5W4i/+Ck5CRMw7ZKyh+P0XaiCJk7K0sQsgPr3atj6VaSfR9QhIqCU34sqtBIc1hGB2WTAyd6OpUSfL2A5hkjTQIDAQABo4ICETCCAg0wDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQ9EqBpWxcqA8tmOJuAhpeflaGAvTAfBgNVHSMEGDAWgBS7vMNHpeS8qcbDpHIMEI2iNeHI6DBXBggrBgEFBQcBAQRLMEkwIgYIKwYBBQUHMAGGFmh0dHA6Ly9yMTAuby5sZW5jci5vcmcwIwYIKwYBBQUHMAKGF2h0dHA6Ly9yMTAuaS5sZW5jci5vcmcvMBgGA1UdEQQRMA+CDWNmc3NpLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdgB9WR4S4XgqexxhZ3xe/fjQh1wUoE6VnrkDL9kOjC55uAAAAZS8Qh4iAAAEAwBHMEUCIQCBO4H/IcLpR+gPbXOi9Q1ard86WwFEUvyLkTFW+YfC6AIgAopLAcGHHINC3Lq1PG6TwahoUmsCMfshriac1MXcE04AdgCi4wrkRe+9rZt+OO1HZ3dT14JbhJTXK14bLMS5UKRH5wAAAZS8Qh4jAAAEAwBHMEUCIC1FO3AvM3nvxGk/NkoLUm7VDT2grzlW3GmSTuoPo1mrAiEA09sZi8eDZ2XKIW5Sy8ReznShxK+6A2iu+xloHEmhUiQwDQYJKoZIhvcNAQELBQADggEBAErnBYgCbDtrOAcwms2AbiGS8QD5D/WkZQ86p1IeYsWk45U2saKNo1DpGcSASWcuEwjd0tO5enfAGETps/zexHT87PpQTuFXohGvz2vYm4hki59d7ViHnOwS9rbt2Ndk5SAXngl5693svMvEKGcizDKGorpYXPkvPd3eDIpnhDn0fJ1jmr4aQlLVBl5dcmYRPlTtSaIYGpra58RrsyMB4qXQ6xrQGgEtJyDfYiAH3sDPQpGStG18sS7FyyIPfq9f6LyMrF/MVSv/AZOPtgHk9IQ2QZdkFtOyL7IrEWY5zuRMTCKRKU8Abxa7ZlBXwBPyf/RrtUCyfV3eS/iIEAD6mpw=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -339,21 +339,21 @@
               "ip"           : "cfssi.gouv.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "35 >= 30 days"
+              "finding"      : "75 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "cfssi.gouv.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-11-20 15:50"
+              "finding"      : "2025-01-31 11:08"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "cfssi.gouv.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-02-18 15:50"
+              "finding"      : "2025-05-01 11:08"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -507,7 +507,7 @@
               "ip"           : "cfssi.gouv.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736862750"
+              "finding"      : "1739540859"
           }
 ,         {
               "id"           : "HSTS",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=6EE381D819499DFF6EA69D7A14B43E63DC64C57A523BD5C7F4666CA41E04D3EF"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3B18A6C6F6DF4A1D0875BCE0C6E1A8626ECFEC79CA5A5A77F861F132C1DFC0D3"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1063,6 +1063,6 @@
               "ip"           : "cfssi.gouv.fr/54.36.91.62",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "54"
+              "finding"      : "53"
           }
 ]
